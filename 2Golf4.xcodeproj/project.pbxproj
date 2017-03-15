@@ -13,37 +13,25 @@
 		2006AEAB1E2017B000FB683D /* storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEA91E2017B000FB683D /* storyboard */; };
 		2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEAC1E2017B000FB683D /* Assets.xcassets */; };
 		2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */; };
-		2006AEBB1E2017B000FB683D /* _Golf4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006AEBA1E2017B000FB683D /* _Golf4Tests.swift */; };
-		2006AEC61E2017B000FB683D /* _Golf4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006AEC51E2017B000FB683D /* _Golf4UITests.swift */; };
-		2006AED41E20192B00FB683D /* 15934735_10210060890212080_1595820195_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 2006AED31E20192B00FB683D /* 15934735_10210060890212080_1595820195_n.png */; };
-		2006AED61E201C8A00FB683D /* 15909197_10210061176979249_416942335_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 2006AED51E201C8A00FB683D /* 15909197_10210061176979249_416942335_o.png */; };
-		2006AEDC1E20349300FB683D /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEDB1E20349300FB683D /* Home-25.png */; };
-		2006AEDE1E2034AD00FB683D /* Search-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEDD1E2034AD00FB683D /* Search-25.png */; };
-		2006AEE01E20435200FB683D /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEDF1E20435200FB683D /* 15879367_10210070566253975_367807476_n.png */; };
+		201711F01E4D0CC300350258 /* User-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711EF1E4D0CC300350258 /* User-100.png */; };
+		201711F21E4D0CCE00350258 /* Home-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F11E4D0CCE00350258 /* Home-96.png */; };
+		201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */; };
 		201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201823F71E43B77C0007F478 /* SWRevealViewController.m */; };
-		204BEA4B1E43F96600A16191 /* storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204BEA491E43F96600A16191 /* storyboard */; };
+		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
+		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
+		20781E441E68D2B30011B44D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20781E421E68D2B30011B44D /* main.storyboard */; };
+		209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB701E79F28300B6D78A /* HoleViewController.swift */; };
+		209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB721E79F47B00B6D78A /* MapViewController.swift */; };
+		209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB741E79F58400B6D78A /* LocationManager.swift */; };
+		209CFB771E79FF8D00B6D78A /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */; };
+		209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */; };
+		209CFB7B1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */; };
 		20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C67C0C1E2579DB00889533 /* Menu-25.png */; };
-		20FE86DD1E43CBA10099C740 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20FE86DC1E43CBA10099C740 /* GoogleService-Info.plist */; };
+		E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2006AEB71E2017B000FB683D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2006AE981E2017B000FB683D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2006AE9F1E2017B000FB683D;
-			remoteInfo = 2Golf4;
-		};
-		2006AEC21E2017B000FB683D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2006AE981E2017B000FB683D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2006AE9F1E2017B000FB683D;
-			remoteInfo = 2Golf4;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1A85BD10337942A116FCA501 /* Pods-2Golf4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4Tests/Pods-2Golf4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2006AEA01E2017B000FB683D /* 2Golf4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Golf4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2006AEA31E2017B000FB683D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2006AEA51E2017B000FB683D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,25 +40,41 @@
 		2006AEAC1E2017B000FB683D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2006AEAF1E2017B000FB683D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2006AEB11E2017B000FB683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2006AEB61E2017B000FB683D /* 2Golf4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2Golf4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2006AEBA1E2017B000FB683D /* _Golf4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Golf4Tests.swift; sourceTree = "<group>"; };
 		2006AEBC1E2017B000FB683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2006AEC11E2017B000FB683D /* 2Golf4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2Golf4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2006AEC51E2017B000FB683D /* _Golf4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Golf4UITests.swift; sourceTree = "<group>"; };
 		2006AEC71E2017B000FB683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2006AED31E20192B00FB683D /* 15934735_10210060890212080_1595820195_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15934735_10210060890212080_1595820195_n.png; path = ../../15934735_10210060890212080_1595820195_n.png; sourceTree = "<group>"; };
-		2006AED51E201C8A00FB683D /* 15909197_10210061176979249_416942335_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15909197_10210061176979249_416942335_o.png; path = ../../15909197_10210061176979249_416942335_o.png; sourceTree = "<group>"; };
-		2006AEDB1E20349300FB683D /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-25.png"; path = "../../Home-25.png"; sourceTree = "<group>"; };
-		2006AEDD1E2034AD00FB683D /* Search-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Search-25.png"; path = "../../Search-25.png"; sourceTree = "<group>"; };
-		2006AEDF1E20435200FB683D /* 15879367_10210070566253975_367807476_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15879367_10210070566253975_367807476_n.png; path = ../../15879367_10210070566253975_367807476_n.png; sourceTree = "<group>"; };
+		201711EF1E4D0CC300350258 /* User-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User-100.png"; path = "../../../Downloads/User-100.png"; sourceTree = "<group>"; };
+		201711F11E4D0CCE00350258 /* Home-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-96.png"; path = "../../../Downloads/Home-96.png"; sourceTree = "<group>"; };
+		201711F41E4D0D7800350258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/15879367_10210070566253975_367807476_n.png; sourceTree = "<group>"; };
 		201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2Golf4-Bridging-Header.h"; sourceTree = "<group>"; };
 		201823F61E43B77C0007F478 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		201823F71E43B77C0007F478 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		204BEA4A1E43F96600A16191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		205C489F1E20537900955FA8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../Downloads/roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
+		20781E431E68D2B30011B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
+		209CFB701E79F28300B6D78A /* HoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleViewController.swift; sourceTree = "<group>"; };
+		209CFB721E79F47B00B6D78A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		209CFB741E79F58400B6D78A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15934762_10210060875371709_915351557_n.png; sourceTree = "<group>"; };
+		209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15934735_10210060890212080_1595820195_n.png; sourceTree = "<group>"; };
 		20C67C0C1E2579DB00889533 /* Menu-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu-25.png"; path = "../../../Downloads/Menu-25.png"; sourceTree = "<group>"; };
-		20FE86DC1E43CBA10099C740 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4BAF054DED288F8E79496866 /* Pods_2Golf4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4D718110997EFE8038010 /* Pods-2Golf4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4.release.xcconfig"; sourceTree = "<group>"; };
+		5B7CA3EDB690E1F9FC7C09A1 /* Pods-2Golf4-2Golf4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4-2Golf4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4-2Golf4Tests/Pods-2Golf4-2Golf4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		680FABB7E2E372A6BB52F4E0 /* Pods_2Golf4_2Golf4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4_2Golf4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70202822961AEA88538717BC /* Pods_2Golf4_2Golf4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4_2Golf4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A06FC2FBB0C4E271EDB63A /* Pods-2Golf4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4.debug.xcconfig"; sourceTree = "<group>"; };
+		ADFCD8EAE33135DF3A0D246D /* Pods-2Golf4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4Tests/Pods-2Golf4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD58494FB64A25E1ABC99281 /* Pods-2Golf4-2Golf4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4-2Golf4Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4-2Golf4Tests/Pods-2Golf4-2Golf4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFAEB046B8C7BD7EA7C067B /* Pods-2Golf4-2Golf4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4-2Golf4UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4-2Golf4UITests/Pods-2Golf4-2Golf4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C49A322EFF91A02B44B76B77 /* Pods_2Golf4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5230BF98800566C264D2642 /* Pods-2Golf4-2Golf4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4-2Golf4UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4-2Golf4UITests/Pods-2Golf4-2Golf4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D868A9DF5B7865D929187D92 /* Pods-2Golf4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4UITests/Pods-2Golf4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D6FC3A64696F7AEF62BB74 /* Pods-2Golf4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4UITests/Pods-2Golf4UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEB31E2017B000FB683D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEBE1E2017B000FB683D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +96,8 @@
 				2006AEB91E2017B000FB683D /* 2Golf4Tests */,
 				2006AEC41E2017B000FB683D /* 2Golf4UITests */,
 				2006AEA11E2017B000FB683D /* Products */,
+				405DF44ADEF615335E32D719 /* Pods */,
+				E4C6D71522F7B7D1F495CECC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				2006AEA01E2017B000FB683D /* 2Golf4.app */,
-				2006AEB61E2017B000FB683D /* 2Golf4Tests.xctest */,
-				2006AEC11E2017B000FB683D /* 2Golf4UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,26 +112,24 @@
 		2006AEA21E2017B000FB683D /* 2Golf4 */ = {
 			isa = PBXGroup;
 			children = (
+				20781E401E68C7460011B44D /* ProfileController.swift */,
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA51E2017B000FB683D /* FirstViewController.swift */,
 				2006AEA71E2017B000FB683D /* SecondViewController.swift */,
-				2006AED31E20192B00FB683D /* 15934735_10210060890212080_1595820195_n.png */,
 				2006AEA91E2017B000FB683D /* storyboard */,
-				2006AEDB1E20349300FB683D /* Home-25.png */,
-				2006AEDD1E2034AD00FB683D /* Search-25.png */,
-				204BEA491E43F96600A16191 /* storyboard */,
+				20781E421E68D2B30011B44D /* main.storyboard */,
+				209CFB721E79F47B00B6D78A /* MapViewController.swift */,
+				209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */,
+				209CFB701E79F28300B6D78A /* HoleViewController.swift */,
+				209CFB741E79F58400B6D78A /* LocationManager.swift */,
 				2006AEAC1E2017B000FB683D /* Assets.xcassets */,
-				2006AEDF1E20435200FB683D /* 15879367_10210070566253975_367807476_n.png */,
-				205C489F1E20537900955FA8 /* Roboto-Bold.ttf */,
-				20C67C0C1E2579DB00889533 /* Menu-25.png */,
-				205C489E1E20535B00955FA8 /* Roboto-Light.ttf */,
 				2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */,
+				20781E3B1E68BC900011B44D /* Imgs */,
 				2006AEB11E2017B000FB683D /* Info.plist */,
+				207400D61E567CB5007D7645 /* GoogleService-Info.plist */,
 				201823F61E43B77C0007F478 /* SWRevealViewController.h */,
 				201823F71E43B77C0007F478 /* SWRevealViewController.m */,
-				2006AED51E201C8A00FB683D /* 15909197_10210061176979249_416942335_o.png */,
 				201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */,
-				20FE86DC1E43CBA10099C740 /* GoogleService-Info.plist */,
 			);
 			path = 2Golf4;
 			sourceTree = "<group>";
@@ -163,6 +152,49 @@
 			path = 2Golf4UITests;
 			sourceTree = "<group>";
 		};
+		20781E3B1E68BC900011B44D /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */,
+				209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */,
+				201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */,
+				201711EF1E4D0CC300350258 /* User-100.png */,
+				201711F11E4D0CCE00350258 /* Home-96.png */,
+				20C67C0C1E2579DB00889533 /* Menu-25.png */,
+				205C489E1E20535B00955FA8 /* Roboto-Light.ttf */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		405DF44ADEF615335E32D719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A06FC2FBB0C4E271EDB63A /* Pods-2Golf4.debug.xcconfig */,
+				51E4D718110997EFE8038010 /* Pods-2Golf4.release.xcconfig */,
+				1A85BD10337942A116FCA501 /* Pods-2Golf4Tests.debug.xcconfig */,
+				ADFCD8EAE33135DF3A0D246D /* Pods-2Golf4Tests.release.xcconfig */,
+				D868A9DF5B7865D929187D92 /* Pods-2Golf4UITests.debug.xcconfig */,
+				E8D6FC3A64696F7AEF62BB74 /* Pods-2Golf4UITests.release.xcconfig */,
+				5B7CA3EDB690E1F9FC7C09A1 /* Pods-2Golf4-2Golf4Tests.debug.xcconfig */,
+				BD58494FB64A25E1ABC99281 /* Pods-2Golf4-2Golf4Tests.release.xcconfig */,
+				C5230BF98800566C264D2642 /* Pods-2Golf4-2Golf4UITests.debug.xcconfig */,
+				BEFAEB046B8C7BD7EA7C067B /* Pods-2Golf4-2Golf4UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4C6D71522F7B7D1F495CECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */,
+				C49A322EFF91A02B44B76B77 /* Pods_2Golf4Tests.framework */,
+				4BAF054DED288F8E79496866 /* Pods_2Golf4UITests.framework */,
+				680FABB7E2E372A6BB52F4E0 /* Pods_2Golf4_2Golf4Tests.framework */,
+				70202822961AEA88538717BC /* Pods_2Golf4_2Golf4UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2006AECA1E2017B000FB683D /* Build configuration list for PBXNativeTarget "2Golf4" */;
 			buildPhases = (
+				FE43F9AA84B7C5BF21839A99 /* [CP] Check Pods Manifest.lock */,
 				2006AE9C1E2017B000FB683D /* Sources */,
 				2006AE9D1E2017B000FB683D /* Frameworks */,
 				2006AE9E1E2017B000FB683D /* Resources */,
+				E36E57A25DD1C991443BF8BB /* [CP] Embed Pods Frameworks */,
+				317B371D56453EF5DC829783 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,48 +217,6 @@
 			productName = 2Golf4;
 			productReference = 2006AEA01E2017B000FB683D /* 2Golf4.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2006AEB51E2017B000FB683D /* 2Golf4Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2006AECD1E2017B000FB683D /* Build configuration list for PBXNativeTarget "2Golf4Tests" */;
-			buildPhases = (
-				26375CCA10C54756393BBE46 /* [CP] Check Pods Manifest.lock */,
-				2006AEB21E2017B000FB683D /* Sources */,
-				2006AEB31E2017B000FB683D /* Frameworks */,
-				2006AEB41E2017B000FB683D /* Resources */,
-				1C24890008A6C61E8F178AE6 /* [CP] Embed Pods Frameworks */,
-				DFD5DF0B235DCAA67AB473F2 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2006AEB81E2017B000FB683D /* PBXTargetDependency */,
-			);
-			name = 2Golf4Tests;
-			productName = 2Golf4Tests;
-			productReference = 2006AEB61E2017B000FB683D /* 2Golf4Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2006AEC01E2017B000FB683D /* 2Golf4UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2006AED01E2017B000FB683D /* Build configuration list for PBXNativeTarget "2Golf4UITests" */;
-			buildPhases = (
-				C70E0C2F786DA56B2043A577 /* [CP] Check Pods Manifest.lock */,
-				2006AEBD1E2017B000FB683D /* Sources */,
-				2006AEBE1E2017B000FB683D /* Frameworks */,
-				2006AEBF1E2017B000FB683D /* Resources */,
-				54787D7295814D4421D74FB1 /* [CP] Embed Pods Frameworks */,
-				0F93E668542B141DAF5200BC /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2006AEC31E2017B000FB683D /* PBXTargetDependency */,
-			);
-			name = 2Golf4UITests;
-			productName = 2Golf4UITests;
-			productReference = 2006AEC11E2017B000FB683D /* 2Golf4UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -241,16 +234,6 @@
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					2006AEB51E2017B000FB683D = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2006AE9F1E2017B000FB683D;
-					};
-					2006AEC01E2017B000FB683D = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2006AE9F1E2017B000FB683D;
-					};
 				};
 			};
 			buildConfigurationList = 2006AE9B1E2017B000FB683D /* Build configuration list for PBXProject "2Golf4" */;
@@ -267,8 +250,6 @@
 			projectRoot = "";
 			targets = (
 				2006AE9F1E2017B000FB683D /* 2Golf4 */,
-				2006AEB51E2017B000FB683D /* 2Golf4Tests */,
-				2006AEC01E2017B000FB683D /* 2Golf4UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,38 +259,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2006AED61E201C8A00FB683D /* 15909197_10210061176979249_416942335_o.png in Resources */,
-				2006AEE01E20435200FB683D /* 15879367_10210070566253975_367807476_n.png in Resources */,
-				204BEA4B1E43F96600A16191 /* storyboard in Resources */,
+				201711F01E4D0CC300350258 /* User-100.png in Resources */,
+				209CFB7B1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png in Resources */,
+				201711F21E4D0CCE00350258 /* Home-96.png in Resources */,
 				2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */,
-				2006AEDE1E2034AD00FB683D /* Search-25.png in Resources */,
+				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
 				2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */,
-				2006AEDC1E20349300FB683D /* Home-25.png in Resources */,
+				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
-				20FE86DD1E43CBA10099C740 /* GoogleService-Info.plist in Resources */,
-				2006AED41E20192B00FB683D /* 15934735_10210060890212080_1595820195_n.png in Resources */,
+				209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */,
+				201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */,
 				20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEB41E2017B000FB683D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEBF1E2017B000FB683D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F93E668542B141DAF5200BC /* [CP] Copy Pods Resources */ = {
+		317B371D56453EF5DC829783 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,10 +288,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4UITests/Pods-2Golf4UITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1C24890008A6C61E8F178AE6 /* [CP] Embed Pods Frameworks */ = {
+		E36E57A25DD1C991443BF8BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,10 +303,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4Tests/Pods-2Golf4Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26375CCA10C54756393BBE46 /* [CP] Check Pods Manifest.lock */ = {
+		FE43F9AA84B7C5BF21839A99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,51 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		54787D7295814D4421D74FB1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4UITests/Pods-2Golf4UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C70E0C2F786DA56B2043A577 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DFD5DF0B235DCAA67AB473F2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Golf4Tests/Pods-2Golf4Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -406,43 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */,
+				20781E411E68C7460011B44D /* ProfileController.swift in Sources */,
+				209CFB771E79FF8D00B6D78A /* MapAnnotation.swift in Sources */,
 				2006AEA81E2017B000FB683D /* SecondViewController.swift in Sources */,
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
+				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEB21E2017B000FB683D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2006AEBB1E2017B000FB683D /* _Golf4Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2006AEBD1E2017B000FB683D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2006AEC61E2017B000FB683D /* _Golf4UITests.swift in Sources */,
+				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2006AEB81E2017B000FB683D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2006AE9F1E2017B000FB683D /* 2Golf4 */;
-			targetProxy = 2006AEB71E2017B000FB683D /* PBXContainerItemProxy */;
-		};
-		2006AEC31E2017B000FB683D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2006AE9F1E2017B000FB683D /* 2Golf4 */;
-			targetProxy = 2006AEC21E2017B000FB683D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2006AEA91E2017B000FB683D /* storyboard */ = {
@@ -461,12 +359,21 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		204BEA491E43F96600A16191 /* storyboard */ = {
+		201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				204BEA4A1E43F96600A16191 /* Base */,
+				201711F41E4D0D7800350258 /* Base */,
 			);
-			name = storyboard;
+			name = 15879367_10210070566253975_367807476_n.png;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		20781E421E68D2B30011B44D /* main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20781E431E68D2B30011B44D /* Base */,
+			);
+			name = main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -565,6 +472,7 @@
 		};
 		2006AECB1E2017B000FB683D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A06FC2FBB0C4E271EDB63A /* Pods-2Golf4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -581,6 +489,7 @@
 		};
 		2006AECC1E2017B000FB683D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E4D718110997EFE8038010 /* Pods-2Golf4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -591,60 +500,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "2Golf4/2Golf4-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		2006AECE1E2017B000FB683D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = 2Golf4Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Golf4.app/2Golf4";
-			};
-			name = Debug;
-		};
-		2006AECF1E2017B000FB683D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = 2Golf4Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Golf4.app/2Golf4";
-			};
-			name = Release;
-		};
-		2006AED11E2017B000FB683D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = 2Golf4UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = 2Golf4;
-			};
-			name = Debug;
-		};
-		2006AED21E2017B000FB683D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = 2Golf4UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = 2Golf4;
 			};
 			name = Release;
 		};
@@ -665,24 +520,6 @@
 			buildConfigurations = (
 				2006AECB1E2017B000FB683D /* Debug */,
 				2006AECC1E2017B000FB683D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2006AECD1E2017B000FB683D /* Build configuration list for PBXNativeTarget "2Golf4Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2006AECE1E2017B000FB683D /* Debug */,
-				2006AECF1E2017B000FB683D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2006AED01E2017B000FB683D /* Build configuration list for PBXNativeTarget "2Golf4UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2006AED11E2017B000FB683D /* Debug */,
-				2006AED21E2017B000FB683D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
