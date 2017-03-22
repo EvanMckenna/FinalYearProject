@@ -26,6 +26,10 @@
 		209CFB771E79FF8D00B6D78A /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */; };
 		209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */; };
 		209CFB7B1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */; };
+		20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36841E83274D002E3052 /* MapViewController2.swift */; };
+		20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36861E832A03002E3052 /* Forward-50-2.png */; };
+		20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36881E832A70002E3052 /* MapViewController3.swift */; };
+		20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD368A1E832A7D002E3052 /* MapViewController4.swift */; };
 		20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C67C0C1E2579DB00889533 /* Menu-25.png */; };
 		E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +64,10 @@
 		209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 		209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15934762_10210060875371709_915351557_n.png; sourceTree = "<group>"; };
 		209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15934735_10210060890212080_1595820195_n.png; sourceTree = "<group>"; };
+		20BD36841E83274D002E3052 /* MapViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController2.swift; sourceTree = "<group>"; };
+		20BD36861E832A03002E3052 /* Forward-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-50-2.png"; sourceTree = "<group>"; };
+		20BD36881E832A70002E3052 /* MapViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController3.swift; sourceTree = "<group>"; };
+		20BD368A1E832A7D002E3052 /* MapViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController4.swift; sourceTree = "<group>"; };
 		20C67C0C1E2579DB00889533 /* Menu-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu-25.png"; path = "../../../Downloads/Menu-25.png"; sourceTree = "<group>"; };
 		4BAF054DED288F8E79496866 /* Pods_2Golf4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4D718110997EFE8038010 /* Pods-2Golf4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +126,9 @@
 				2006AEA71E2017B000FB683D /* SecondViewController.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				20BD36841E83274D002E3052 /* MapViewController2.swift */,
+				20BD36881E832A70002E3052 /* MapViewController3.swift */,
+				20BD368A1E832A7D002E3052 /* MapViewController4.swift */,
 				209CFB721E79F47B00B6D78A /* MapViewController.swift */,
 				209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */,
 				209CFB701E79F28300B6D78A /* HoleViewController.swift */,
@@ -155,6 +166,7 @@
 		20781E3B1E68BC900011B44D /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				20BD36861E832A03002E3052 /* Forward-50-2.png */,
 				209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */,
 				209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */,
 				201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */,
@@ -268,6 +280,7 @@
 				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
 				209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */,
+				20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */,
 				201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */,
 				20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */,
 			);
@@ -328,12 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */,
 				209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */,
 				20781E411E68C7460011B44D /* ProfileController.swift in Sources */,
 				209CFB771E79FF8D00B6D78A /* MapAnnotation.swift in Sources */,
 				2006AEA81E2017B000FB683D /* SecondViewController.swift in Sources */,
+				20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */,
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
+				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,

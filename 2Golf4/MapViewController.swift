@@ -11,15 +11,30 @@ import MapKit
 
 class MapViewController: UIViewController{
     
+    @IBOutlet var mapView: MKMapView!
     var coreLocationManager = CLLocationManager()
     
-    
-    @IBOutlet var locationInfo: UILabel!
-    @IBOutlet var mapView: MKMapView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let distanceSpan:CLLocationDegrees = 500
+        
+        super.viewDidLoad()
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        //tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
+    
+    
+ 
+        
+        
+        
+        
+        let distanceSpan:CLLocationDegrees = 300
         mapView.mapType = MKMapType.satellite
         
         let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.23741081, -7.09266756)
@@ -37,6 +52,10 @@ class MapViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    
 
     /*
     // MARK: - Navigation
@@ -48,4 +67,5 @@ class MapViewController: UIViewController{
     }
     */
 
+}
 }
