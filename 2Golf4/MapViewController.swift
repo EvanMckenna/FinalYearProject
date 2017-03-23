@@ -14,11 +14,14 @@ class MapViewController: UIViewController{
     @IBOutlet var mapView: MKMapView!
     var coreLocationManager = CLLocationManager()
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         super.viewDidLoad()
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
         
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")

@@ -18,6 +18,8 @@ class MapViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+             self.navigationItem.setHidesBackButton(true, animated: false)
+        
         let distanceSpan:CLLocationDegrees = 300
         mapView.mapType = MKMapType.satellite
         

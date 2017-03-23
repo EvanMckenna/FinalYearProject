@@ -9,5 +9,6 @@ target '2Golf4' do
 
 pod 'Firebase'
 pod 'FirebaseAuth'
+pod 'IQKeyboardManagerSwift'
 
 end
