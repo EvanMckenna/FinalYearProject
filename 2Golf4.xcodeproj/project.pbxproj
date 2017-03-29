@@ -17,6 +17,10 @@
 		201711F21E4D0CCE00350258 /* Home-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F11E4D0CCE00350258 /* Home-96.png */; };
 		201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */; };
 		201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201823F71E43B77C0007F478 /* SWRevealViewController.m */; };
+		201DF6671E8C675900BD7E93 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DF6661E8C675900BD7E93 /* Home2.swift */; };
+		201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */; };
+		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
+		201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */; };
 		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
 		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
 		20781E441E68D2B30011B44D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20781E421E68D2B30011B44D /* main.storyboard */; };
@@ -67,6 +71,10 @@
 		201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2Golf4-Bridging-Header.h"; sourceTree = "<group>"; };
 		201823F61E43B77C0007F478 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		201823F71E43B77C0007F478 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		201DF6661E8C675900BD7E93 /* Home2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beautiful_golf_course-wallpaper-960x640.jpg"; sourceTree = "<group>"; };
+		201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golfer-swinging-sunset.png"; sourceTree = "<group>"; };
+		201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanctuaryGolfCourseScorecardDesign2.jpg; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
@@ -152,6 +160,7 @@
 				2006AEA71E2017B000FB683D /* SecondViewController.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				201DF6661E8C675900BD7E93 /* Home2.swift */,
 				20BD36841E83274D002E3052 /* MapViewController2.swift */,
 				20BD36881E832A70002E3052 /* MapViewController3.swift */,
 				20BD368A1E832A7D002E3052 /* MapViewController4.swift */,
@@ -193,6 +202,9 @@
 		20781E3B1E68BC900011B44D /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */,
+				201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */,
+				201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */,
 				20BD36A51E83406D002E3052 /* Back-50.png */,
 				20BD36861E832A03002E3052 /* Forward-50-2.png */,
 				209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */,
@@ -321,9 +333,11 @@
 				20BD36A61E83406D002E3052 /* Back-50.png in Resources */,
 				20BD36991E833F8D002E3052 /* Roboto-Black.ttf in Resources */,
 				20BD369A1E833F8D002E3052 /* Roboto-BlackItalic.ttf in Resources */,
+				201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */,
 				20BD369B1E833F8D002E3052 /* Roboto-Bold.ttf in Resources */,
 				20BD369C1E833F8D002E3052 /* Roboto-BoldItalic.ttf in Resources */,
 				20BD369D1E833F8D002E3052 /* Roboto-Italic.ttf in Resources */,
+				201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */,
 				20BD369E1E833F8D002E3052 /* Roboto-Light.ttf in Resources */,
 				20BD369F1E833F8D002E3052 /* Roboto-LightItalic.ttf in Resources */,
 				20BD36A01E833F8D002E3052 /* Roboto-Medium.ttf in Resources */,
@@ -337,6 +351,7 @@
 				2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */,
 				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
 				2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */,
+				201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */,
 				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
 				209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */,
@@ -412,6 +427,7 @@
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,
+				201DF6671E8C675900BD7E93 /* Home2.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

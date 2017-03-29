@@ -11,10 +11,17 @@ import Firebase
 
 
 class ProfileController: UIViewController {
+    @IBOutlet var Open: UIBarButtonItem!
     
     @IBOutlet var Username: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Open.target = self.revealViewController()
+        Open.action = Selector("revealToggle:")
+        
+        
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
         if let user = FIRAuth.auth()?.currentUser        {
             self.Username.alpha=1.0
