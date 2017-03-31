@@ -13,6 +13,7 @@ class SecondViewController: UIViewController {
  
 
     
+    @IBOutlet var popUpView: UIView!
     @IBOutlet var usernameLabe: UILabel!
     @IBOutlet var emailField: UITextField!
     @IBOutlet var passwordField: UITextField!
@@ -21,6 +22,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
   
+        popUpView.layer.cornerRadius = 10
+        popUpView.layer.masksToBounds = true
         
         if let user = FIRAuth.auth()?.currentUser        {
             self.logoutButton.alpha=1.0
@@ -44,6 +47,9 @@ class SecondViewController: UIViewController {
         view.endEditing(true)
     }
 
+    @IBAction func ClosePopUp(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
     @IBAction func createAccountAction(_ sender: Any)
     {
