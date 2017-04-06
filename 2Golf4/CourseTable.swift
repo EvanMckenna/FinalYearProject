@@ -1,29 +1,25 @@
 //
-//  Home2.swift
+//  CourseTable.swift
 //  2Golf4
 //
-//  Created by Evan  on 29/03/2017.
+//  Created by Evan  on 06/04/2017.
 //  Copyright © 2017 Evan . All rights reserved.
 //
 
 import UIKit
 
-class Home2: UIViewController {
-
+class CourseTable: UIViewController {
+    
+   
     @IBOutlet var Open: UIBarButtonItem!
-    @IBOutlet var ScrollView: UIScrollView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.setHidesBackButton(true, animated: false)
         
         Open.target = self.revealViewController()
         Open.action = Selector("revealToggle:")
         
-        self.navigationItem.setHidesBackButton(true, animated: false)
-        
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        ScrollView.contentSize.height = 1500
         // Do any additional setup after loading the view.
     }
 

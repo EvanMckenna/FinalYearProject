@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "2Golf4/SecondViewController.swift"
@@ -133,7 +133,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "2Golf4/MapViewController3.swift"
@@ -144,79 +144,64 @@
             endingLineNumber = "4">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.MapViewController3.__deallocating_deinit"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/MapViewController3.swift"
-                  timestampString = "512598551.546829"
+                  timestampString = "513195026.532884"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_Golf4.MapViewController3.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _Golf4.MapViewController3"
-                  moduleName = "2Golf4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/MapViewController3.swift"
-                  timestampString = "512598551.559652"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.MapViewController3.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _Golf4.MapViewController3"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/MapViewController3.swift"
-                  timestampString = "512598551.568864"
+                  timestampString = "513195026.548162"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "32">
+                  offsetFromSymbolStart = "23">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.MapViewController3.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;_Golf4.MapViewController3&gt;"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/MapViewController3.swift"
-                  timestampString = "512598551.57664"
+                  timestampString = "513195026.555468"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.MapViewController3.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;_Golf4.MapViewController3&gt;"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/MapViewController3.swift"
-                  timestampString = "512598551.584505"
+                  timestampString = "513195026.56183"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -1,29 +1,35 @@
 //
-//  Home2.swift
+//  Scorecard1.swift
 //  2Golf4
 //
-//  Created by Evan  on 29/03/2017.
+//  Created by Evan  on 06/04/2017.
 //  Copyright © 2017 Evan . All rights reserved.
 //
 
 import UIKit
+import FirebaseAuth
 
-class Home2: UIViewController {
+class Scorecard1: UIViewController {
 
-    @IBOutlet var Open: UIBarButtonItem!
-    @IBOutlet var ScrollView: UIScrollView!
+    @IBOutlet var BackButton: UIButton!
+    @IBOutlet var PopupView: UIView!
+    @IBOutlet var Username: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.setHidesBackButton(true, animated: false)
+        PopupView.layer.cornerRadius = 10
+        PopupView.layer.masksToBounds = true
         
-        Open.target = self.revealViewController()
-        Open.action = Selector("revealToggle:")
-        
-        self.navigationItem.setHidesBackButton(true, animated: false)
-        
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        ScrollView.contentSize.height = 1500
+        if let user = FIRAuth.auth()?.currentUser        {
+            self.Username.alpha=1.0
+            self.Username.text = user.email
+        }
+        else
+        {
+            self.Username.alpha = 1.0
+            self.Username.text="Not Signed In"
+        }
+
         // Do any additional setup after loading the view.
     }
 
@@ -43,4 +49,7 @@ class Home2: UIViewController {
     }
     */
 
+    @IBAction func ClosePopUp(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }

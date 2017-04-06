@@ -11,8 +11,10 @@ import Firebase
 
 
 class ProfileController: UIViewController {
-    @IBOutlet var Open: UIBarButtonItem!
-    
+
+
+    @IBOutlet var Open: UIBarButtonItem!    
+    @IBOutlet var ImagePicker: UIImageView!
     @IBOutlet var Username: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
