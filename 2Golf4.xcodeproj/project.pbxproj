@@ -39,6 +39,7 @@
 		20A329C31E96D73D00C6D169 /* Back-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A329C21E96D73D00C6D169 /* Back-26.png */; };
 		20A329C51E96D98900C6D169 /* CourseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A329C41E96D98900C6D169 /* CourseTable.swift */; };
 		20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A329C61E96E2D700C6D169 /* TableViewController.swift */; };
+		20A329C91E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */; };
 		20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36841E83274D002E3052 /* MapViewController2.swift */; };
 		20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36861E832A03002E3052 /* Forward-50-2.png */; };
 		20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36881E832A70002E3052 /* MapViewController3.swift */; };
@@ -103,6 +104,7 @@
 		20A329C21E96D73D00C6D169 /* Back-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-26.png"; sourceTree = "<group>"; };
 		20A329C41E96D98900C6D169 /* CourseTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTable.swift; sourceTree = "<group>"; };
 		20A329C61E96E2D700C6D169 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-04-06 at 20.54.44.png"; sourceTree = "<group>"; };
 		20BD36841E83274D002E3052 /* MapViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController2.swift; sourceTree = "<group>"; };
 		20BD36861E832A03002E3052 /* Forward-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-50-2.png"; sourceTree = "<group>"; };
 		20BD36881E832A70002E3052 /* MapViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController3.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		20A329B51E96B96800C6D169 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */,
 				20781E401E68C7460011B44D /* ProfileController.swift */,
 				2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */,
 				207400D61E567CB5007D7645 /* GoogleService-Info.plist */,
@@ -389,6 +392,7 @@
 				209CFB7B1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png in Resources */,
 				201711F21E4D0CCE00350258 /* Home-96.png in Resources */,
 				2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */,
+				20A329C91E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png in Resources */,
 				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
 				2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */,
 				20A329BD1E96D1A500C6D169 /* Contacts-26.png in Resources */,

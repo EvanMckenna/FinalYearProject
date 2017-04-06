@@ -17,6 +17,9 @@ class TableViewController: UITableViewController {
         Open.target = self.revealViewController()
         Open.action = Selector("revealToggle:")
         
+         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+        
         self.navigationItem.setHidesBackButton(true, animated: false)
 
         // Uncomment the following line to preserve selection between presentations
