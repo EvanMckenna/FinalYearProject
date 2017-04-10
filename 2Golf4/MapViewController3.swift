@@ -8,16 +8,25 @@
 
 import UIKit
 import MapKit
+import FirebaseDatabase
+import FirebaseAuth
+import Firebase
+
+
 
 class MapViewController3: UIViewController {
 
     var coreLocationManager =  CLLocationManager()
-    
+    var ref: FIRDatabaseReference?
+
+    @IBOutlet var textView: UITextField!
     @IBOutlet var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ref = FIRDatabase.database().reference()
+
              self.navigationItem.setHidesBackButton(true, animated: false)
         
         let distanceSpan:CLLocationDegrees = 500
@@ -38,6 +47,15 @@ class MapViewController3: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func Hole3(_ sender: Any) {
+        let score3 = self.textView.text!
+        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Hole3").setValue(textView.text)
+
+    }
+  
+        
+        
     
     /*
      // MARK: - Navigation

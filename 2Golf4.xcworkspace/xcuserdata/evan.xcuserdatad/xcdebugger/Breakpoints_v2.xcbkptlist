@@ -209,7 +209,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "2Golf4/AppDelegate.swift"
@@ -222,14 +222,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.AppDelegate.__deallocating_deinit"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/AppDelegate.swift"
-                  timestampString = "513481766.148673"
+                  timestampString = "513482699.39753"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -237,14 +237,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.AppDelegate.init () -&gt; _Golf4.AppDelegate"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/AppDelegate.swift"
-                  timestampString = "513481766.155594"
+                  timestampString = "513482699.403865"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
@@ -252,14 +252,14 @@
                   offsetFromSymbolStart = "24">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "_Golf4.AppDelegate.__allocating_init () -&gt; _Golf4.AppDelegate"
                   moduleName = "2Golf4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/AppDelegate.swift"
-                  timestampString = "513481766.162868"
+                  timestampString = "513482699.410339"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -272,17 +272,65 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "2Golf4/Scorecard1.swift"
-            timestampString = "513481712.239948"
+            timestampString = "513484865.298892"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "2Golf4/Scorecard1.swift"
+            timestampString = "513484865.298892"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Golf4.Scorecard1.viewDidLoad () -&gt; ()"
+                  moduleName = "2Golf4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/Scorecard1.swift"
+                  timestampString = "513482680.293009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "3090">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Golf4.Scorecard1.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "2Golf4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/Scorecard1.swift"
+                  timestampString = "513482680.3009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1630">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
