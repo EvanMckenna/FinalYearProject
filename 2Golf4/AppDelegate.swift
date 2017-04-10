@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 import IQKeyboardManagerSwift
 
 @UIApplicationMain
@@ -15,11 +16,12 @@ import IQKeyboardManagerSwift
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var ref:FIRDatabaseReference!
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FIRApp.configure()
-        
+        self.ref = FIRDatabase.database().reference()
         
         IQKeyboardManager.sharedManager().enable = true
 

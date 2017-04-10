@@ -8,14 +8,22 @@
 
 import UIKit
 import FirebaseAuth
+import Firebase
+import FirebaseDatabase
+
 
 class Scorecard1: UIViewController {
+    
+    var ref: FIRDatabaseReference!
 
+    @IBOutlet var hole1: UILabel!
     @IBOutlet var BackButton: UIButton!
     @IBOutlet var PopupView: UIView!
     @IBOutlet var Username: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ref = FIRDatabase.database().reference()
         
         PopupView.layer.cornerRadius = 10
         PopupView.layer.masksToBounds = true
@@ -23,15 +31,20 @@ class Scorecard1: UIViewController {
         if let user = FIRAuth.auth()?.currentUser        {
             self.Username.alpha=1.0
             self.Username.text = user.email
+            
         }
         else
         {
             self.Username.alpha = 1.0
             self.Username.text="Not Signed In"
         }
+        
+     
 
         // Do any additional setup after loading the view.
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

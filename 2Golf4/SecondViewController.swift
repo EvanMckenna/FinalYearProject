@@ -8,10 +8,13 @@
 
 import UIKit
 import Firebase
+import FirebaseStorage
+import FirebaseDatabase
+
 
 class SecondViewController: UIViewController {
  
-
+    var ref: FIRDatabaseReference!
     
     @IBOutlet var popUpView: UIView!
     @IBOutlet var usernameLabe: UILabel!
@@ -20,6 +23,9 @@ class SecondViewController: UIViewController {
     @IBOutlet var logoutButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ref = FIRDatabase.database().reference()
+        
         // Do any additional setup after loading the view, typically from a nib.
   
         popUpView.layer.cornerRadius = 10
@@ -28,6 +34,7 @@ class SecondViewController: UIViewController {
         if let user = FIRAuth.auth()?.currentUser        {
             self.logoutButton.alpha=1.0
             self.usernameLabe.text = user.email
+    
         }
         else
         {
@@ -71,6 +78,7 @@ class SecondViewController: UIViewController {
             FIRAuth.auth()?.createUser(withEmail: self.emailField.text!, password: self.passwordField.text!, completion: { (user, error) in
                 if error == nil
                 {
+                    self.ref.child("users").updateChildValues(["\(FIRAuth.auth()!.currentUser!.uid)" :["Username":self.usernameLabe.text!]])
                     self.logoutButton.alpha = 1.0
                     self.usernameLabe.text = user!.email
                     self.emailField.text = ""
@@ -86,7 +94,6 @@ class SecondViewController: UIViewController {
                     alertController.addAction(defaultAction)
                     
                     self.present(alertController, animated: true)
-                    
                     
                     
                 }

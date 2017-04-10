@@ -21,6 +21,7 @@
 		201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */; };
 		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
 		201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */; };
+		2063EFEF1E9B106400B99612 /* hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063EFEE1E9B106400B99612 /* hole.swift */; };
 		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
 		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
 		20781E441E68D2B30011B44D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20781E421E68D2B30011B44D /* main.storyboard */; };
@@ -86,6 +87,7 @@
 		201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golfer-swinging-sunset.png"; sourceTree = "<group>"; };
 		201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanctuaryGolfCourseScorecardDesign2.jpg; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		2063EFEE1E9B106400B99612 /* hole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hole.swift; sourceTree = "<group>"; };
 		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
 		20781E431E68D2B30011B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				2063EFEE1E9B106400B99612 /* hole.swift */,
 				20A329C61E96E2D700C6D169 /* TableViewController.swift */,
 				20A329C41E96D98900C6D169 /* CourseTable.swift */,
 				20A329B61E96C5D700C6D169 /* Scorecard1.swift */,
@@ -475,6 +478,7 @@
 				20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,
 				20A329C51E96D98900C6D169 /* CourseTable.swift in Sources */,
+				2063EFEF1E9B106400B99612 /* hole.swift in Sources */,
 				201DF6671E8C675900BD7E93 /* Home2.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 			);

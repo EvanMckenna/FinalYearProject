@@ -8,19 +8,30 @@
 
 import UIKit
 import MapKit
+import FirebaseDatabase
+import FirebaseAuth
+import Firebase
+
 
 class MapViewController: UIViewController{
+    
+    var ref: FIRDatabaseReference?
     
     @IBOutlet var mapView: MKMapView!
     var coreLocationManager = CLLocationManager()
     
-    
 
+    @IBOutlet var textView: UITextField!
+    @IBOutlet var Hole1: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        super.viewDidLoad()
+        ref = FIRDatabase.database().reference()
         
+        
+
+
         self.navigationItem.setHidesBackButton(true, animated: false)
         
         //Looks for single or multiple taps.
@@ -50,6 +61,15 @@ class MapViewController: UIViewController{
         mapView.addAnnotation(mapAnnotationClassPin)
     }
 
+
+    @IBAction func Hole1(_ sender: Any) {
+        let score1 = self.textView.text!
+        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Hole1").setValue(textView.text)
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
