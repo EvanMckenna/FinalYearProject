@@ -78,7 +78,7 @@ class SecondViewController: UIViewController {
             FIRAuth.auth()?.createUser(withEmail: self.emailField.text!, password: self.passwordField.text!, completion: { (user, error) in
                 if error == nil
                 {
-                    self.ref.child("users").updateChildValues(["\(FIRAuth.auth()!.currentUser!.uid)" :["Username":self.usernameLabe.text!]])
+                    self.ref.child("users").updateChildValues(["\(FIRAuth.auth()!.currentUser!.uid)" :["Email":self.emailField.text!]])
                     self.logoutButton.alpha = 1.0
                     self.usernameLabe.text = user!.email
                     self.emailField.text = ""
