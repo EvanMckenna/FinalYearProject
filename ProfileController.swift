@@ -16,6 +16,8 @@ var ref: FIRDatabaseReference?
 class ProfileController: UIViewController {
 
 
+    @IBOutlet var Handicap: UILabel!
+    @IBOutlet var Age: UILabel!
     @IBOutlet var profile_image: UIImageView!
     @IBOutlet var userName: UILabel!
     @IBOutlet var firstName: UILabel!
@@ -56,6 +58,26 @@ class ProfileController: UIViewController {
                 self.userName.text = userName 
                 })
             
+            
+            if let userID = FIRAuth.auth()?.currentUser?.uid{
+                ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                    let dictionary = snapshot.value as? NSDictionary
+                    
+                    let Handicap = dictionary?["Handicap"] as? String ?? "None"
+                    
+                    self.Handicap.text = Handicap
+                })
+                
+                if let userID = FIRAuth.auth()?.currentUser?.uid{
+                    ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                        let dictionary = snapshot.value as? NSDictionary
+                        
+                        let Age = dictionary?["Age"] as? String ?? "None"
+                        
+                        self.Age.text = Age
+                    })
+                
+            
         if let userID = FIRAuth.auth()?.currentUser?.uid{
         ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
             
@@ -80,4 +102,5 @@ class ProfileController: UIViewController {
 
 }
 
-
+}
+}
