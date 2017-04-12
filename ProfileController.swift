@@ -16,6 +16,7 @@ var ref: FIRDatabaseReference?
 class ProfileController: UIViewController {
 
 
+    @IBOutlet var profile_image: UIImageView!
     @IBOutlet var userName: UILabel!
     @IBOutlet var firstName: UILabel!
     @IBOutlet var Open: UIBarButtonItem!    
@@ -54,11 +55,29 @@ class ProfileController: UIViewController {
                 
                 self.userName.text = userName 
                 })
+            
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+        ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            let dictionary = snapshot.value as? [String: AnyObject]
+            let profileImageURL = dictionary?["pics"] as? String ?? "Pic"
+
+            let url = URL(string: profileImageURL)
+            URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
+                if error != nil{
+                    print(error)
+                    return
+                }
+                DispatchQueue.main.async{
+                    self.profile_image?.image = UIImage(data: data!)
+                }
+            }).resume()
+            })
 }
 }
 }
 }
 
-
+}
 
 
