@@ -12,6 +12,7 @@ import FirebaseStorage
 import FirebaseDatabase
 
 
+
 class SecondViewController: UIViewController {
  
     var ref: FIRDatabaseReference!
@@ -34,7 +35,6 @@ class SecondViewController: UIViewController {
         if let user = FIRAuth.auth()?.currentUser        {
             self.logoutButton.alpha=1.0
             self.usernameLabe.text = user.email
-    
         }
         else
         {
@@ -83,6 +83,7 @@ class SecondViewController: UIViewController {
                     self.usernameLabe.text = user!.email
                     self.emailField.text = ""
                     self.passwordField.text = ""
+
                     
                 }
                 else
