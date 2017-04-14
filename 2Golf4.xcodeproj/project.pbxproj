@@ -32,6 +32,13 @@
 		201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */; };
 		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
 		201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */; };
+		205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744B1E9FC0DC00043354 /* UsersViewController.swift */; };
+		205D74501E9FC16B00043354 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744F1E9FC16B00043354 /* User.swift */; };
+		205D74531E9FD65E00043354 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74521E9FD65E00043354 /* UserCell.swift */; };
+		205D74551EA0145900043354 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74541EA0145900043354 /* UploadViewController.swift */; };
+		205D74571EA0237E00043354 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74561EA0237E00043354 /* PostCell.swift */; };
+		205D74591EA0240600043354 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74581EA0240600043354 /* Post.swift */; };
+		205D745B1EA024A000043354 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D745A1EA024A000043354 /* FeedViewController.swift */; };
 		2063EFEF1E9B106400B99612 /* hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063EFEE1E9B106400B99612 /* hole.swift */; };
 		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
 		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
@@ -109,6 +116,13 @@
 		201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golfer-swinging-sunset.png"; sourceTree = "<group>"; };
 		201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanctuaryGolfCourseScorecardDesign2.jpg; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		205D744B1E9FC0DC00043354 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		205D744F1E9FC16B00043354 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		205D74521E9FD65E00043354 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		205D74541EA0145900043354 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		205D74561EA0237E00043354 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		205D74581EA0240600043354 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		205D745A1EA024A000043354 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2063EFEE1E9B106400B99612 /* hole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hole.swift; sourceTree = "<group>"; };
 		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
@@ -198,10 +212,15 @@
 		2006AEA21E2017B000FB683D /* 2Golf4 */ = {
 			isa = PBXGroup;
 			children = (
+				205D74511E9FC18300043354 /* Custom Cell */,
+				205D74481E9FB9A000043354 /* Objects */,
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
+				205D745A1EA024A000043354 /* FeedViewController.swift */,
 				200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				205D74561EA0237E00043354 /* PostCell.swift */,
+				205D74541EA0145900043354 /* UploadViewController.swift */,
 				2063EFEE1E9B106400B99612 /* hole.swift */,
 				20A329C61E96E2D700C6D169 /* TableViewController.swift */,
 				20A329C41E96D98900C6D169 /* CourseTable.swift */,
@@ -211,6 +230,7 @@
 				20781E3B1E68BC900011B44D /* Imgs */,
 				2006AEB11E2017B000FB683D /* Info.plist */,
 				20BD368C1E833CA6002E3052 /* Fonts */,
+				205D744B1E9FC0DC00043354 /* UsersViewController.swift */,
 			);
 			path = 2Golf4;
 			sourceTree = "<group>";
@@ -231,6 +251,23 @@
 				2006AEC71E2017B000FB683D /* Info.plist */,
 			);
 			path = 2Golf4UITests;
+			sourceTree = "<group>";
+		};
+		205D74481E9FB9A000043354 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				205D744F1E9FC16B00043354 /* User.swift */,
+				205D74581EA0240600043354 /* Post.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		205D74511E9FC18300043354 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				205D74521E9FD65E00043354 /* UserCell.swift */,
+			);
+			name = "Custom Cell";
 			sourceTree = "<group>";
 		};
 		20781E3B1E68BC900011B44D /* Imgs */ = {
@@ -508,13 +545,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A329B71E96C5D700C6D169 /* Scorecard1.swift in Sources */,
+				205D74551EA0145900043354 /* UploadViewController.swift in Sources */,
 				20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */,
+				205D74591EA0240600043354 /* Post.swift in Sources */,
+				205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */,
 				209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */,
 				20781E411E68C7460011B44D /* ProfileController.swift in Sources */,
 				209CFB771E79FF8D00B6D78A /* MapAnnotation.swift in Sources */,
 				2006AEA81E2017B000FB683D /* SecondViewController.swift in Sources */,
 				20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */,
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
+				205D74501E9FC16B00043354 /* User.swift in Sources */,
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
@@ -524,6 +565,9 @@
 				2063EFEF1E9B106400B99612 /* hole.swift in Sources */,
 				201DF6671E8C675900BD7E93 /* Home2.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
+				205D74531E9FD65E00043354 /* UserCell.swift in Sources */,
+				205D745B1EA024A000043354 /* FeedViewController.swift in Sources */,
+				205D74571EA0237E00043354 /* PostCell.swift in Sources */,
 				200BB4A11E9C4AA400FFFF5D /* EditProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

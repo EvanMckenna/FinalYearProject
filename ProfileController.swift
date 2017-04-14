@@ -33,7 +33,7 @@ class ProfileController: UIViewController {
         Open.action = Selector("revealToggle:")
         
         
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
         
        
                 
@@ -103,4 +103,6 @@ class ProfileController: UIViewController {
 }
 
 }
+    @IBAction func NextPage(_ sender: Any) {
+    }
 }

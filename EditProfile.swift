@@ -12,13 +12,15 @@ import FirebaseDatabase
 import FirebaseAuth
 import FirebaseStorage
 
-class EditProfile: UIViewController {
-
+class EditProfile: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     var ref: FIRDatabaseReference?
 
     @IBOutlet var FName: UITextField!
     @IBOutlet var LName: UITextField!
     @IBOutlet var Username: UITextField!
+    @IBOutlet var Age: UITextField!
+    @IBOutlet var Handicap: UITextField!
     
     
     @IBOutlet var profile_image: UIImageView!
@@ -29,8 +31,9 @@ class EditProfile: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let storage = FIRStorage.storage().reference()
-        
+        let storage = FIRStorage.storage()
+
+        let storageRef = storage.reference()
         
         ref = FIRDatabase.database().reference()
 
@@ -46,8 +49,41 @@ class EditProfile: UIViewController {
     }
     
 
-  
     
+    @IBAction func uploadimageButton(_ sender: Any) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.allowsEditing = true
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        self.present(picker, animated: true, completion: nil)
+    }
+    
+    @IBAction func uploadbannerimageButton(_ sender: Any) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.allowsEditing = true
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        self.present(picker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        var selectedImageFromPicker: UIImage?
+        
+        if let editedImage = info["UIImagePickerControllerEditedImage"] as? UIImage{
+            selectedImageFromPicker = editedImage
+        } else if let originalImage = info["UIImagePickerControllerOriginalImage"] as? UIImage{
+            selectedImageFromPicker = originalImage
+        }
+        if let selectedImage = selectedImageFromPicker{
+            profile_image.image = selectedImage
+        }
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
    
     @IBAction func EditNames(_ sender: Any) {
         
@@ -55,20 +91,57 @@ class EditProfile: UIViewController {
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Username").setValue(Username.text)
         
-        let fName = self.FName.text!
+        let changeRequest = FIRAuth.auth()!.currentUser!.profileChangeRequest()
+        changeRequest.displayName = self.FName.text
+        changeRequest.commitChanges(completion: nil)
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("FullName").setValue(FName.text)
         
-    }
-    
-    /*
-    // MARK: - Navigation
+        let age1 = self.Age.text!
+        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Age").setValue(Age.text)
+        
+        let handicap = self.Handicap.text!
+        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Handicap").setValue(Handicap.text)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        
+        let imageName = NSUUID().uuidString
+        
+        let storageRef = FIRStorage.storage().reference()
+        
+       let storedImage = storageRef.child("profile_images").child(imageName)
+        
 
+        
+        
+        
+        if let uploadData = UIImagePNGRepresentation(self.profile_image.image!)
+        {
+            storedImage.put(uploadData, metadata: nil, completion: { (metadata, error) in
+                if error != nil{
+                    print(error)
+                    return
+                }
+                storedImage.downloadURL(completion: { (url, error) in
+                    if error != nil{
+                        print(error)
+                        return
+                    }
+                    
+                    if let urlText = url?.absoluteString{
+                        self.ref?.child("users").child((FIRAuth.auth()?.currentUser?.uid)!).updateChildValues(["pics" : urlText], withCompletionBlock: { (error, ref) in
+                            if error != nil{
+                                print(error)
+                                return
+}
+})
+}
+})
+})
+}
+
+
+
+}
 }

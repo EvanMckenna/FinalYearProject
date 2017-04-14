@@ -79,6 +79,7 @@ class SecondViewController: UIViewController {
                 if error == nil
                 {
                     self.ref.child("users").updateChildValues(["\(FIRAuth.auth()!.currentUser!.uid)" :["Email":self.emailField.text!]])
+                    self.ref.child("users").updateChildValues(["\(FIRAuth.auth()!.currentUser!.uid)" :["uid": user?.uid]])
                     self.logoutButton.alpha = 1.0
                     self.usernameLabe.text = user!.email
                     self.emailField.text = ""
