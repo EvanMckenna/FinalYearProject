@@ -62,14 +62,14 @@ class MapViewController: UIViewController{
     }
 
 
-    @IBAction func Hole1(_ sender: Any) {
+    @IBAction func Accept(_ sender: Any) {
+        
         let score1 = self.textView.text!
         
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Hole1").setValue(textView.text)
-        
-        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
+
     }
-    
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

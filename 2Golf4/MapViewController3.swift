@@ -47,16 +47,17 @@ class MapViewController3: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Hole3(_ sender: Any) {
-        let score3 = self.textView.text!
-        
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Hole3").setValue(textView.text)
-
-    }
+  
   
         
         
     
+    @IBAction func Accept(_ sender: Any) {
+        
+        let score1 = self.textView.text!
+        
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole3").setValue(textView.text)
+    }
     /*
      // MARK: - Navigation
      

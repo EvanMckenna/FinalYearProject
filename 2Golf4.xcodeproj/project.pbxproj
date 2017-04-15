@@ -32,6 +32,9 @@
 		201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */; };
 		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
 		201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */; };
+		204C83A61EA2885A0043EFA1 /* ScorecardSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */; };
+		204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A71EA289920043EFA1 /* TableViewController1.swift */; };
+		204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */; };
 		205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744B1E9FC0DC00043354 /* UsersViewController.swift */; };
 		205D74501E9FC16B00043354 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744F1E9FC16B00043354 /* User.swift */; };
 		205D74531E9FD65E00043354 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74521E9FD65E00043354 /* UserCell.swift */; };
@@ -117,6 +120,9 @@
 		201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beautiful_golf_course-wallpaper-960x640.jpg"; sourceTree = "<group>"; };
 		201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golfer-swinging-sunset.png"; sourceTree = "<group>"; };
 		201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanctuaryGolfCourseScorecardDesign2.jpg; sourceTree = "<group>"; };
+		204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorecardSelect.swift; sourceTree = "<group>"; };
+		204C83A71EA289920043EFA1 /* TableViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard1Final.swift; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		205D744B1E9FC0DC00043354 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		205D744F1E9FC16B00043354 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -223,6 +229,9 @@
 				200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */,
+				204C83A71EA289920043EFA1 /* TableViewController1.swift */,
+				204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */,
 				205D74561EA0237E00043354 /* PostCell.swift */,
 				205D74541EA0145900043354 /* UploadViewController.swift */,
 				2063EFEE1E9B106400B99612 /* hole.swift */,
@@ -553,6 +562,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A329B71E96C5D700C6D169 /* Scorecard1.swift in Sources */,
+				204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */,
 				205D74551EA0145900043354 /* UploadViewController.swift in Sources */,
 				20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */,
 				205D74591EA0240600043354 /* Post.swift in Sources */,
@@ -572,9 +582,11 @@
 				20A329C51E96D98900C6D169 /* CourseTable.swift in Sources */,
 				2063EFEF1E9B106400B99612 /* hole.swift in Sources */,
 				201DF6671E8C675900BD7E93 /* Home2.swift in Sources */,
+				204C83A61EA2885A0043EFA1 /* ScorecardSelect.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 				205D74531E9FD65E00043354 /* UserCell.swift in Sources */,
 				205D745B1EA024A000043354 /* FeedViewController.swift in Sources */,
+				204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */,
 				205D74571EA0237E00043354 /* PostCell.swift in Sources */,
 				200BB4A11E9C4AA400FFFF5D /* EditProfile.swift in Sources */,
 			);

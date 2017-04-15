@@ -33,7 +33,7 @@ class Scorecard1: UIViewController {
         
         if let user = FIRAuth.auth()?.currentUser        {
             self.Username.alpha=1.0
-            self.Username.text = user.email
+            self.Username.text = user.displayName
             
         }
         else
@@ -43,7 +43,7 @@ class Scorecard1: UIViewController {
         }
         
         if let userID = FIRAuth.auth()?.currentUser?.uid{
-            ref.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+            ref.child("users").child(userID).child("Scorecard1").observeSingleEvent(of: .value, with: { (snapshot) in
                 let dictionary = snapshot.value as? NSDictionary
                 
                 let hole1 = dictionary?["Hole1"] as? String ?? "Hole 1"

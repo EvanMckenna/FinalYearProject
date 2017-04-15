@@ -24,6 +24,9 @@ class Home2: UIViewController {
         Open.action = Selector("revealToggle:")
         
         self.navigationItem.setHidesBackButton(true, animated: false)
+        
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+
        
         ScrollView.contentSize.height = 1500
         // Do any additional setup after loading the view.
