@@ -43,6 +43,8 @@
 		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
 		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
 		20781E441E68D2B30011B44D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20781E421E68D2B30011B44D /* main.storyboard */; };
+		208C6A121EA18E0F00A8E0EB /* Plus Math-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */; };
+		208C6A141EA18E4700A8E0EB /* Search-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 208C6A131EA18E4700A8E0EB /* Search-26.png */; };
 		209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB701E79F28300B6D78A /* HoleViewController.swift */; };
 		209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB721E79F47B00B6D78A /* MapViewController.swift */; };
 		209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB741E79F58400B6D78A /* LocationManager.swift */; };
@@ -127,6 +129,8 @@
 		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
 		20781E431E68D2B30011B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
+		208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus Math-26.png"; sourceTree = "<group>"; };
+		208C6A131EA18E4700A8E0EB /* Search-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-26.png"; sourceTree = "<group>"; };
 		209CFB701E79F28300B6D78A /* HoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleViewController.swift; sourceTree = "<group>"; };
 		209CFB721E79F47B00B6D78A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		209CFB741E79F58400B6D78A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -273,6 +277,8 @@
 		20781E3B1E68BC900011B44D /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				208C6A131EA18E4700A8E0EB /* Search-26.png */,
+				208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */,
 				200BB4B21E9C612500FFFF5D /* Chat-26-2.png */,
 				200BB4AA1E9C5FE400FFFF5D /* Home-26-2.png */,
 				200BB4A81E9C5FBC00FFFF5D /* Home-26.png */,
@@ -441,6 +447,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208C6A141EA18E4700A8E0EB /* Search-26.png in Resources */,
 				200BB4B11E9C60E200FFFF5D /* News Filled-26.png in Resources */,
 				20A329C31E96D73D00C6D169 /* Back-26.png in Resources */,
 				20BD36A61E83406D002E3052 /* Back-50.png in Resources */,
@@ -459,6 +466,7 @@
 				20BD369E1E833F8D002E3052 /* Roboto-Light.ttf in Resources */,
 				200BB4A91E9C5FBC00FFFF5D /* Home-26.png in Resources */,
 				20BD369F1E833F8D002E3052 /* Roboto-LightItalic.ttf in Resources */,
+				208C6A121EA18E0F00A8E0EB /* Plus Math-26.png in Resources */,
 				20BD36A01E833F8D002E3052 /* Roboto-Medium.ttf in Resources */,
 				20BD36A11E833F8D002E3052 /* Roboto-MediumItalic.ttf in Resources */,
 				20BD36A21E833F8D002E3052 /* Roboto-Regular.ttf in Resources */,

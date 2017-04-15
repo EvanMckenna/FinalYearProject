@@ -1,27 +1,16 @@
 //
-//  user.swift
+//  User1.swift
 //  2Golf4
 //
-//  Created by Evan  on 09/04/2017.
+//  Created by Evan  on 13/04/2017.
 //  Copyright © 2017 Evan . All rights reserved.
 //
 
-import Foundation
-import Firebase
-import FirebaseDatabase
+import UIKit
 
-struct user {
-    var hole1: String!
-    var ref: FIRDatabaseReference?
-    var key: String?
+class User: NSObject {
     
-    init(snapshot: FIRDataSnapshot){
-        
-        key = snapshot.key
-        ref = snapshot.ref
-        hole1 = (snapshot.value! as! NSDictionary)["Hole1"] as! String
-    }
-    func toAnyObject() -> [String:AnyObject] {
-        return["Hole1"]
-    }
+    var userID: String!
+    var fullName: String!
+    var imagePath: String!
 }
