@@ -13,7 +13,7 @@ import FirebaseDatabase
 import FirebaseAuth
 
 
-class MapViewController: UIViewController {
+class MapViewController21: UIViewController {
     
     var ref: FIRDatabaseReference?
     
@@ -54,7 +54,7 @@ class MapViewController: UIViewController {
         
         let score1 = self.textView.text!
         
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard2").child("Hole1").setValue(textView.text)
     }
     
     

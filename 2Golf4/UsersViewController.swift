@@ -56,7 +56,7 @@ class UsersViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return user.count ?? 0
+       return user.count 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

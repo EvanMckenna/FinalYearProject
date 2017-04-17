@@ -18,7 +18,7 @@ class CourseTable: UIViewController {
         super.viewDidLoad()
         
         Open.target = self.revealViewController()
-        Open.action = Selector("revealToggle:")
+        Open.action = #selector(SWRevealViewController.revealToggle(_:))
         
         // Do any additional setup after loading the view.
     }

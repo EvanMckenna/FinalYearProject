@@ -24,6 +24,18 @@
 		200BB4B11E9C60E200FFFF5D /* News Filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4B01E9C60E200FFFF5D /* News Filled-26.png */; };
 		200BB4B31E9C612500FFFF5D /* Chat-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4B21E9C612500FFFF5D /* Chat-26-2.png */; };
 		200BB4B51E9C614400FFFF5D /* Calendar Filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4B41E9C614400FFFF5D /* Calendar Filled-26.png */; };
+		200CCEA61EA4211C00E72FE1 /* Add Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 200CCEA51EA4211C00E72FE1 /* Add Filled-50.png */; };
+		200DFD011EA4381500BB9A61 /* MapViewControllerS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD001EA4381500BB9A61 /* MapViewControllerS3.swift */; };
+		200DFD031EA4384D00BB9A61 /* MapViewController2S3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD021EA4384D00BB9A61 /* MapViewController2S3.swift */; };
+		200DFD051EA4387000BB9A61 /* MapViewController3S3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD041EA4387000BB9A61 /* MapViewController3S3.swift */; };
+		200DFD071EA438A200BB9A61 /* MapViewController4S3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD061EA438A200BB9A61 /* MapViewController4S3.swift */; };
+		200DFD091EA438C800BB9A61 /* Scorecard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD081EA438C800BB9A61 /* Scorecard3.swift */; };
+		200DFD151EA44DCB00BB9A61 /* MapViewController21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD141EA44DCB00BB9A61 /* MapViewController21.swift */; };
+		200DFD171EA44E0200BB9A61 /* MapViewController22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD161EA44E0200BB9A61 /* MapViewController22.swift */; };
+		200DFD191EA44E2D00BB9A61 /* MapViewController23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD181EA44E2D00BB9A61 /* MapViewController23.swift */; };
+		200DFD1B1EA44E4D00BB9A61 /* MapViewController24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1A1EA44E4D00BB9A61 /* MapViewController24.swift */; };
+		200DFD1D1EA44F0900BB9A61 /* Scorecard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */; };
+		200DFD1F1EA44F3400BB9A61 /* Scorecard2Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */; };
 		201711F01E4D0CC300350258 /* User-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711EF1E4D0CC300350258 /* User-100.png */; };
 		201711F21E4D0CCE00350258 /* Home-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F11E4D0CCE00350258 /* Home-96.png */; };
 		201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */; };
@@ -35,6 +47,7 @@
 		204C83A61EA2885A0043EFA1 /* ScorecardSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */; };
 		204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A71EA289920043EFA1 /* TableViewController1.swift */; };
 		204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */; };
+		2054F2191EA4072200609FAB /* paper_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2054F2181EA4072200609FAB /* paper_onboarding.framework */; };
 		205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744B1E9FC0DC00043354 /* UsersViewController.swift */; };
 		205D74501E9FC16B00043354 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744F1E9FC16B00043354 /* User.swift */; };
 		205D74531E9FD65E00043354 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74521E9FD65E00043354 /* UserCell.swift */; };
@@ -63,7 +76,6 @@
 		20A329C31E96D73D00C6D169 /* Back-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A329C21E96D73D00C6D169 /* Back-26.png */; };
 		20A329C51E96D98900C6D169 /* CourseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A329C41E96D98900C6D169 /* CourseTable.swift */; };
 		20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A329C61E96E2D700C6D169 /* TableViewController.swift */; };
-		20A329C91E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */; };
 		20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36841E83274D002E3052 /* MapViewController2.swift */; };
 		20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36861E832A03002E3052 /* Forward-50-2.png */; };
 		20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD36881E832A70002E3052 /* MapViewController3.swift */; };
@@ -110,6 +122,18 @@
 		200BB4B01E9C60E200FFFF5D /* News Filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News Filled-26.png"; sourceTree = "<group>"; };
 		200BB4B21E9C612500FFFF5D /* Chat-26-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chat-26-2.png"; sourceTree = "<group>"; };
 		200BB4B41E9C614400FFFF5D /* Calendar Filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar Filled-26.png"; sourceTree = "<group>"; };
+		200CCEA51EA4211C00E72FE1 /* Add Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Filled-50.png"; path = "../../../Downloads/Add Filled-50.png"; sourceTree = "<group>"; };
+		200DFD001EA4381500BB9A61 /* MapViewControllerS3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerS3.swift; sourceTree = "<group>"; };
+		200DFD021EA4384D00BB9A61 /* MapViewController2S3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController2S3.swift; sourceTree = "<group>"; };
+		200DFD041EA4387000BB9A61 /* MapViewController3S3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController3S3.swift; sourceTree = "<group>"; };
+		200DFD061EA438A200BB9A61 /* MapViewController4S3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController4S3.swift; sourceTree = "<group>"; };
+		200DFD081EA438C800BB9A61 /* Scorecard3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard3.swift; sourceTree = "<group>"; };
+		200DFD141EA44DCB00BB9A61 /* MapViewController21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController21.swift; sourceTree = "<group>"; };
+		200DFD161EA44E0200BB9A61 /* MapViewController22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController22.swift; sourceTree = "<group>"; };
+		200DFD181EA44E2D00BB9A61 /* MapViewController23.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController23.swift; sourceTree = "<group>"; };
+		200DFD1A1EA44E4D00BB9A61 /* MapViewController24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController24.swift; sourceTree = "<group>"; };
+		200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard2.swift; sourceTree = "<group>"; };
+		200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard2Final.swift; sourceTree = "<group>"; };
 		201711EF1E4D0CC300350258 /* User-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User-100.png"; path = "../../../Downloads/User-100.png"; sourceTree = "<group>"; };
 		201711F11E4D0CCE00350258 /* Home-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-96.png"; path = "../../../Downloads/Home-96.png"; sourceTree = "<group>"; };
 		201711F41E4D0D7800350258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/15879367_10210070566253975_367807476_n.png; sourceTree = "<group>"; };
@@ -123,6 +147,8 @@
 		204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorecardSelect.swift; sourceTree = "<group>"; };
 		204C83A71EA289920043EFA1 /* TableViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
 		204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard1Final.swift; sourceTree = "<group>"; };
+		2054F2131EA4011400609FAB /* 2Golf4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2Golf4.entitlements; sourceTree = "<group>"; };
+		2054F2181EA4072200609FAB /* paper_onboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = paper_onboarding.framework; path = "../../Library/Developer/Xcode/DerivedData/2Golf4-gwotslwjxhrudaeuojyejbvcjtrf/Build/Products/Debug-iphonesimulator/paper-onboarding/paper_onboarding.framework"; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		205D744B1E9FC0DC00043354 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		205D744F1E9FC16B00043354 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -152,7 +178,6 @@
 		20A329C21E96D73D00C6D169 /* Back-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-26.png"; sourceTree = "<group>"; };
 		20A329C41E96D98900C6D169 /* CourseTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTable.swift; sourceTree = "<group>"; };
 		20A329C61E96E2D700C6D169 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-04-06 at 20.54.44.png"; sourceTree = "<group>"; };
 		20BD36841E83274D002E3052 /* MapViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController2.swift; sourceTree = "<group>"; };
 		20BD36861E832A03002E3052 /* Forward-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-50-2.png"; sourceTree = "<group>"; };
 		20BD36881E832A70002E3052 /* MapViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController3.swift; sourceTree = "<group>"; };
@@ -192,6 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2054F2191EA4072200609FAB /* paper_onboarding.framework in Frameworks */,
 				E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,28 +248,23 @@
 		2006AEA21E2017B000FB683D /* 2Golf4 */ = {
 			isa = PBXGroup;
 			children = (
+				2054F2131EA4011400609FAB /* 2Golf4.entitlements */,
 				205D74511E9FC18300043354 /* Custom Cell */,
 				205D74481E9FB9A000043354 /* Objects */,
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
-				205D745A1EA024A000043354 /* FeedViewController.swift */,
-				200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
-				204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */,
-				204C83A71EA289920043EFA1 /* TableViewController1.swift */,
-				204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */,
-				205D74561EA0237E00043354 /* PostCell.swift */,
-				205D74541EA0145900043354 /* UploadViewController.swift */,
-				2063EFEE1E9B106400B99612 /* hole.swift */,
-				20A329C61E96E2D700C6D169 /* TableViewController.swift */,
-				20A329C41E96D98900C6D169 /* CourseTable.swift */,
-				20A329B61E96C5D700C6D169 /* Scorecard1.swift */,
+				200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */,
+				200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */,
+				200DFD141EA44DCB00BB9A61 /* MapViewController21.swift */,
+				200DFD161EA44E0200BB9A61 /* MapViewController22.swift */,
+				200DFD181EA44E2D00BB9A61 /* MapViewController23.swift */,
+				200DFD1A1EA44E4D00BB9A61 /* MapViewController24.swift */,
+				2054F2161EA4036300609FAB /* News */,
 				2006AEAC1E2017B000FB683D /* Assets.xcassets */,
 				20A329B51E96B96800C6D169 /* Screens */,
 				20781E3B1E68BC900011B44D /* Imgs */,
-				2006AEB11E2017B000FB683D /* Info.plist */,
 				20BD368C1E833CA6002E3052 /* Fonts */,
-				205D744B1E9FC0DC00043354 /* UsersViewController.swift */,
 			);
 			path = 2Golf4;
 			sourceTree = "<group>";
@@ -266,9 +287,75 @@
 			path = 2Golf4UITests;
 			sourceTree = "<group>";
 		};
+		200DFCFF1EA437D200BB9A61 /* Scorecard3 */ = {
+			isa = PBXGroup;
+			children = (
+				200DFD001EA4381500BB9A61 /* MapViewControllerS3.swift */,
+				200DFD021EA4384D00BB9A61 /* MapViewController2S3.swift */,
+				200DFD041EA4387000BB9A61 /* MapViewController3S3.swift */,
+				200DFD061EA438A200BB9A61 /* MapViewController4S3.swift */,
+				200DFD081EA438C800BB9A61 /* Scorecard3.swift */,
+			);
+			name = Scorecard3;
+			sourceTree = "<group>";
+		};
+		2054F2141EA4031800609FAB /* Scorecard1 */ = {
+			isa = PBXGroup;
+			children = (
+				209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */,
+				204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */,
+				204C83A71EA289920043EFA1 /* TableViewController1.swift */,
+				204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */,
+				20A329B61E96C5D700C6D169 /* Scorecard1.swift */,
+				20BD368A1E832A7D002E3052 /* MapViewController4.swift */,
+				20BD36881E832A70002E3052 /* MapViewController3.swift */,
+				20BD36841E83274D002E3052 /* MapViewController2.swift */,
+				209CFB721E79F47B00B6D78A /* MapViewController.swift */,
+			);
+			name = Scorecard1;
+			sourceTree = "<group>";
+		};
+		2054F2151EA4035100609FAB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				20781E401E68C7460011B44D /* ProfileController.swift */,
+				200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		2054F2161EA4036300609FAB /* News */ = {
+			isa = PBXGroup;
+			children = (
+				205D74541EA0145900043354 /* UploadViewController.swift */,
+				205D745A1EA024A000043354 /* FeedViewController.swift */,
+				20A329C61E96E2D700C6D169 /* TableViewController.swift */,
+				205D744B1E9FC0DC00043354 /* UsersViewController.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		2054F2171EA403AF00609FAB /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				207400D61E567CB5007D7645 /* GoogleService-Info.plist */,
+				201823F61E43B77C0007F478 /* SWRevealViewController.h */,
+				201823F71E43B77C0007F478 /* SWRevealViewController.m */,
+				201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */,
+				201DF6661E8C675900BD7E93 /* Home2.swift */,
+				209CFB701E79F28300B6D78A /* HoleViewController.swift */,
+				209CFB741E79F58400B6D78A /* LocationManager.swift */,
+				2006AEA51E2017B000FB683D /* FirstViewController.swift */,
+				2006AEA71E2017B000FB683D /* SecondViewController.swift */,
+				2006AEB11E2017B000FB683D /* Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
 		205D74481E9FB9A000043354 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */,
 				205D744F1E9FC16B00043354 /* User.swift */,
 				205D74581EA0240600043354 /* Post.swift */,
 			);
@@ -278,6 +365,7 @@
 		205D74511E9FC18300043354 /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				205D74561EA0237E00043354 /* PostCell.swift */,
 				205D74521E9FD65E00043354 /* UserCell.swift */,
 			);
 			name = "Custom Cell";
@@ -286,6 +374,7 @@
 		20781E3B1E68BC900011B44D /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				200CCEA51EA4211C00E72FE1 /* Add Filled-50.png */,
 				208C6A131EA18E4700A8E0EB /* Search-26.png */,
 				208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */,
 				200BB4B21E9C612500FFFF5D /* Chat-26-2.png */,
@@ -323,23 +412,12 @@
 		20A329B51E96B96800C6D169 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				20A329C81E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png */,
-				20781E401E68C7460011B44D /* ProfileController.swift */,
-				2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */,
-				207400D61E567CB5007D7645 /* GoogleService-Info.plist */,
-				201823F61E43B77C0007F478 /* SWRevealViewController.h */,
-				201823F71E43B77C0007F478 /* SWRevealViewController.m */,
-				201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */,
-				201DF6661E8C675900BD7E93 /* Home2.swift */,
-				20BD36841E83274D002E3052 /* MapViewController2.swift */,
-				20BD36881E832A70002E3052 /* MapViewController3.swift */,
-				20BD368A1E832A7D002E3052 /* MapViewController4.swift */,
-				209CFB721E79F47B00B6D78A /* MapViewController.swift */,
-				209CFB761E79FF8D00B6D78A /* MapAnnotation.swift */,
-				209CFB701E79F28300B6D78A /* HoleViewController.swift */,
-				209CFB741E79F58400B6D78A /* LocationManager.swift */,
-				2006AEA51E2017B000FB683D /* FirstViewController.swift */,
-				2006AEA71E2017B000FB683D /* SecondViewController.swift */,
+				2054F2151EA4035100609FAB /* Profile */,
+				20A329C41E96D98900C6D169 /* CourseTable.swift */,
+				2063EFEE1E9B106400B99612 /* hole.swift */,
+				200DFCFF1EA437D200BB9A61 /* Scorecard3 */,
+				2054F2141EA4031800609FAB /* Scorecard1 */,
+				2054F2171EA403AF00609FAB /* Misc */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -383,6 +461,7 @@
 		E4C6D71522F7B7D1F495CECC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2054F2181EA4072200609FAB /* paper_onboarding.framework */,
 				DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */,
 				C49A322EFF91A02B44B76B77 /* Pods_2Golf4Tests.framework */,
 				4BAF054DED288F8E79496866 /* Pods_2Golf4UITests.framework */,
@@ -430,6 +509,11 @@
 						DevelopmentTeam = E662V5G5GY;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -479,6 +563,7 @@
 				20BD36A01E833F8D002E3052 /* Roboto-Medium.ttf in Resources */,
 				20BD36A11E833F8D002E3052 /* Roboto-MediumItalic.ttf in Resources */,
 				20BD36A21E833F8D002E3052 /* Roboto-Regular.ttf in Resources */,
+				200CCEA61EA4211C00E72FE1 /* Add Filled-50.png in Resources */,
 				20A329BF1E96D31E00C6D169 /* Golf Ball Filled-50.png in Resources */,
 				200BB4A51E9C5E8700FFFF5D /* Menu-26.png in Resources */,
 				20BD36A31E833F8D002E3052 /* Roboto-Thin.ttf in Resources */,
@@ -487,7 +572,6 @@
 				209CFB7B1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png in Resources */,
 				201711F21E4D0CCE00350258 /* Home-96.png in Resources */,
 				2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */,
-				20A329C91E96F43B00C6D169 /* Screen Shot 2017-04-06 at 20.54.44.png in Resources */,
 				200BB4AB1E9C5FE400FFFF5D /* Home-26-2.png in Resources */,
 				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
 				200BB4B31E9C612500FFFF5D /* Chat-26-2.png in Resources */,
@@ -561,11 +645,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200DFD071EA438A200BB9A61 /* MapViewController4S3.swift in Sources */,
 				20A329B71E96C5D700C6D169 /* Scorecard1.swift in Sources */,
 				204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */,
 				205D74551EA0145900043354 /* UploadViewController.swift in Sources */,
 				20BD36891E832A70002E3052 /* MapViewController3.swift in Sources */,
 				205D74591EA0240600043354 /* Post.swift in Sources */,
+				200DFD191EA44E2D00BB9A61 /* MapViewController23.swift in Sources */,
+				200DFD151EA44DCB00BB9A61 /* MapViewController21.swift in Sources */,
 				205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */,
 				209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */,
 				20781E411E68C7460011B44D /* ProfileController.swift in Sources */,
@@ -574,21 +661,29 @@
 				20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */,
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
 				205D74501E9FC16B00043354 /* User.swift in Sources */,
+				200DFD171EA44E0200BB9A61 /* MapViewController22.swift in Sources */,
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
+				200DFD031EA4384D00BB9A61 /* MapViewController2S3.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
 				20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */,
+				200DFD011EA4381500BB9A61 /* MapViewControllerS3.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,
 				20A329C51E96D98900C6D169 /* CourseTable.swift in Sources */,
 				2063EFEF1E9B106400B99612 /* hole.swift in Sources */,
 				201DF6671E8C675900BD7E93 /* Home2.swift in Sources */,
+				200DFD1D1EA44F0900BB9A61 /* Scorecard2.swift in Sources */,
 				204C83A61EA2885A0043EFA1 /* ScorecardSelect.swift in Sources */,
+				200DFD1F1EA44F3400BB9A61 /* Scorecard2Final.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 				205D74531E9FD65E00043354 /* UserCell.swift in Sources */,
 				205D745B1EA024A000043354 /* FeedViewController.swift in Sources */,
+				200DFD1B1EA44E4D00BB9A61 /* MapViewController24.swift in Sources */,
 				204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */,
 				205D74571EA0237E00043354 /* PostCell.swift in Sources */,
 				200BB4A11E9C4AA400FFFF5D /* EditProfile.swift in Sources */,
+				200DFD091EA438C800BB9A61 /* Scorecard3.swift in Sources */,
+				200DFD051EA4387000BB9A61 /* MapViewController3S3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +823,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = 2Golf4/2Golf4.entitlements;
 				DEVELOPMENT_TEAM = E662V5G5GY;
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -745,6 +841,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = 2Golf4/2Golf4.entitlements;
 				DEVELOPMENT_TEAM = E662V5G5GY;
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

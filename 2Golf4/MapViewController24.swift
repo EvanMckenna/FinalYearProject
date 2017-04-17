@@ -1,5 +1,5 @@
 //
-//  MapViewController2.swift
+//  MapViewController4.swift
 //  2Golf4
 //
 //  Created by Evan  on 22/03/2017.
@@ -12,17 +12,14 @@ import Firebase
 import FirebaseDatabase
 import FirebaseAuth
 
-
-class MapViewController: UIViewController {
+class MapViewController24: UIViewController {
     
     var ref: FIRDatabaseReference?
-    
-    
     var coreLocationManager =  CLLocationManager()
     
     @IBOutlet var mapView: MKMapView!
-    @IBOutlet var textView: UITextField!
     
+    @IBOutlet var textView: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,12 +30,12 @@ class MapViewController: UIViewController {
         let distanceSpan:CLLocationDegrees = 300
         mapView.mapType = MKMapType.satellite
         
-        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.23699879712496, -7.090306878089905)
+        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.235875260987065, -7.090894281864166)
         
         
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(hole1, distanceSpan, distanceSpan), animated: true)
         
-        let mapAnnotationClassPin = MapAnnotation(title: "Hole 2", subtitle: "Par 4 - 460 yds", coordinate: hole1)
+        let mapAnnotationClassPin = MapAnnotation(title: "Hole 4", subtitle: "Par 3 - 160 yds", coordinate: hole1)
         
         mapView.addAnnotation(mapAnnotationClassPin)
     }
@@ -48,13 +45,12 @@ class MapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func Accept(_ sender: Any) {
-        
+    @IBAction func Accept1(_ sender: Any) {
         
         let score1 = self.textView.text!
         
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard2").child("Hole4").setValue(textView.text)
+        
     }
     
     

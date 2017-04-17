@@ -1,19 +1,19 @@
 //
-//  MapViewController2.swift
+//  MapViewController.swift
 //  2Golf4
 //
-//  Created by Evan  on 22/03/2017.
+//  Created by Evan  on 15/03/2017.
 //  Copyright © 2017 Evan . All rights reserved.
 //
 
 import UIKit
 import MapKit
-import Firebase
 import FirebaseDatabase
 import FirebaseAuth
+import Firebase
 
 
-class MapViewController: UIViewController {
+class MapViewController2S3: UIViewController{
     
     var ref: FIRDatabaseReference?
     
@@ -52,9 +52,8 @@ class MapViewController: UIViewController {
     @IBAction func Accept(_ sender: Any) {
         
         
-        let score1 = self.textView.text!
         
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard3").child("Hole2").setValue(textView.text)
     }
     
     

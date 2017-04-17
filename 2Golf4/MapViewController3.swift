@@ -54,7 +54,6 @@ class MapViewController3: UIViewController {
     
     @IBAction func Accept(_ sender: Any) {
         
-        let score1 = self.textView.text!
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole3").setValue(textView.text)
     }

@@ -1,5 +1,5 @@
 //
-//  MapViewController2.swift
+//  MapViewController3.swift
 //  2Golf4
 //
 //  Created by Evan  on 22/03/2017.
@@ -8,20 +8,19 @@
 
 import UIKit
 import MapKit
-import Firebase
 import FirebaseDatabase
 import FirebaseAuth
+import Firebase
 
 
-class MapViewController: UIViewController {
-    
-    var ref: FIRDatabaseReference?
-    
+
+class MapviewController3S3: UIViewController {
     
     var coreLocationManager =  CLLocationManager()
+    var ref: FIRDatabaseReference?
     
-    @IBOutlet var mapView: MKMapView!
     @IBOutlet var textView: UITextField!
+    @IBOutlet var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,15 +29,15 @@ class MapViewController: UIViewController {
         
         self.navigationItem.setHidesBackButton(true, animated: false)
         
-        let distanceSpan:CLLocationDegrees = 300
+        let distanceSpan:CLLocationDegrees = 500
         mapView.mapType = MKMapType.satellite
         
-        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.23699879712496, -7.090306878089905)
+        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.23644688819015, -7.0907145738601685)
         
         
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(hole1, distanceSpan, distanceSpan), animated: true)
         
-        let mapAnnotationClassPin = MapAnnotation(title: "Hole 2", subtitle: "Par 4 - 460 yds", coordinate: hole1)
+        let mapAnnotationClassPin = MapAnnotation(title: "Hole 3", subtitle: "Par 4 - 380 yds", coordinate: hole1)
         
         mapView.addAnnotation(mapAnnotationClassPin)
     }
@@ -49,15 +48,15 @@ class MapViewController: UIViewController {
     }
     
     
+    
+    
+    
+    
     @IBAction func Accept(_ sender: Any) {
         
         
-        let score1 = self.textView.text!
-        
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
+        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard3").child("Hole3").setValue(textView.text)
     }
-    
-    
     /*
      // MARK: - Navigation
      
