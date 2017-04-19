@@ -48,6 +48,7 @@
 		204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A71EA289920043EFA1 /* TableViewController1.swift */; };
 		204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */; };
 		2054F2191EA4072200609FAB /* paper_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2054F2181EA4072200609FAB /* paper_onboarding.framework */; };
+		2058CC031EA6DF7700A30C20 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */; };
 		205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744B1E9FC0DC00043354 /* UsersViewController.swift */; };
 		205D74501E9FC16B00043354 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744F1E9FC16B00043354 /* User.swift */; };
 		205D74531E9FD65E00043354 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D74521E9FD65E00043354 /* UserCell.swift */; };
@@ -149,6 +150,7 @@
 		204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard1Final.swift; sourceTree = "<group>"; };
 		2054F2131EA4011400609FAB /* 2Golf4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2Golf4.entitlements; sourceTree = "<group>"; };
 		2054F2181EA4072200609FAB /* paper_onboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = paper_onboarding.framework; path = "../../Library/Developer/Xcode/DerivedData/2Golf4-gwotslwjxhrudaeuojyejbvcjtrf/Build/Products/Debug-iphonesimulator/paper-onboarding/paper_onboarding.framework"; sourceTree = "<group>"; };
+		2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		205D744B1E9FC0DC00043354 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		205D744F1E9FC16B00043354 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */,
 				200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */,
 				200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */,
 				200DFD141EA44DCB00BB9A61 /* MapViewController21.swift */,
@@ -511,7 +514,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -645,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2058CC031EA6DF7700A30C20 /* CalendarViewController.swift in Sources */,
 				200DFD071EA438A200BB9A61 /* MapViewController4S3.swift in Sources */,
 				20A329B71E96C5D700C6D169 /* Scorecard1.swift in Sources */,
 				204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */,
@@ -823,7 +827,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = 2Golf4/2Golf4.entitlements;
 				DEVELOPMENT_TEAM = E662V5G5GY;
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -841,7 +844,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = 2Golf4/2Golf4.entitlements;
 				DEVELOPMENT_TEAM = E662V5G5GY;
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

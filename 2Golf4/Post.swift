@@ -14,5 +14,6 @@ class Post: NSObject {
     var post: String!
     var userID: String!
     var postID: String!
+    var date: Int!
     var imagePath: String!
 }

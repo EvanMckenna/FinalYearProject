@@ -397,5 +397,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "2Golf4/FeedViewController.swift"
+            timestampString = "514251883.180638"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchPosts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Golf4.FeedViewController.(fetchPosts () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "2Golf4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/FeedViewController.swift"
+                  timestampString = "514251885.099024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "3344">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Golf4.FeedViewController.(fetchPosts () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "2Golf4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evan/Desktop/2Golf4/2Golf4/FeedViewController.swift"
+                  timestampString = "514251885.113232"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -41,7 +41,7 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         let ref = FIRDatabase.database().reference()
         
-        ref.child("users").queryOrdered(byChild: "date").observeSingleEvent(of: .value, with: { snapshot in
+        ref.child("users").queryOrdered(byChild: "postID").observeSingleEvent(of: .value, with: { snapshot in
             
             let users = snapshot.value as! [String : AnyObject]
             

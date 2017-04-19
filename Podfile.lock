@@ -30,6 +30,7 @@ PODS:
   - FirebaseStorage (1.0.5):
     - FirebaseAnalytics (~> 3.5)
     - GTMSessionFetcher/Core (~> 1.1)
+  - FSCalendar (2.7.1)
   - GoogleInterchangeUtilities (1.2.2):
     - GoogleSymbolUtilities (~> 1.1)
   - GoogleSymbolUtilities (1.1.2)
@@ -55,6 +56,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - FirebaseAuth
+  - FSCalendar
   - IQKeyboardManagerSwift
   - JSQMessagesViewController
   - paper-onboarding
@@ -67,6 +69,7 @@ SPEC CHECKSUMS:
   FirebaseDatabase: 6de92187481ff0e8e124064f21742e95ee883b02
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   FirebaseStorage: 5738284835edb57f0e81d4ae5832bb17c1e4b5fa
+  FSCalendar: cfc95384cb0d648ad7c1957649ea74d6c26bb0de
   GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
@@ -76,6 +79,6 @@ SPEC CHECKSUMS:
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   paper-onboarding: a8e001214d9ce9decf78e160b3823f396dbd51ac
 
-PODFILE CHECKSUM: 46858952e5e37976fcd67ec0c81bcc9fa6dd9dd5
+PODFILE CHECKSUM: 215309f9a6fcf3b319ca6d962b71de6561c410d7
 
 COCOAPODS: 1.2.0

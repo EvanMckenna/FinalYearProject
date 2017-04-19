@@ -14,5 +14,6 @@ pod 'Firebase/Storage'
 pod 'Firebase/Database’
 pod 'JSQMessagesViewController'
 pod 'paper-onboarding'
+pod 'FSCalendar'
 
 end
