@@ -359,10 +359,39 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1a-a9-y8T">
-                                                <rect key="frame" x="288" y="558" width="46" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1a-a9-y8T">
+                                                <rect key="frame" x="272" y="552" width="26" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" image="Visible-26.png"/>
+                                                <connections>
+                                                    <segue destination="opS-rJ-NRb" kind="show" id="Bdc-fE-lGp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1l-eg-iwr">
+                                                <rect key="frame" x="319" y="501" width="29" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" image="Add-26.png"/>
+                                                <connections>
+                                                    <segue destination="Q80-6w-JHR" kind="show" id="hpB-AR-V7Y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFY-Uu-whr">
+                                                <rect key="frame" x="319" y="552" width="29" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" image="Add-26.png"/>
+                                                <connections>
+                                                    <segue destination="0zR-Xw-cem" kind="show" id="Rp4-tg-3Q5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-nO-GXO">
+                                                <rect key="frame" x="272" y="501" width="26" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Visible-26.png"/>
+                                                <connections>
+                                                    <segue destination="Y8o-b5-hcw" kind="show" id="qr7-of-MoC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1039,7 +1068,7 @@
         <scene sceneID="gk5-bd-dId">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sZs-V7-91A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="5A797741-75C6-4AB2-91CF-FEA3F9D67EE9" selectedImage="5A797741-75C6-4AB2-91CF-FEA3F9D67EE9" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="2B84A125-4A16-4E36-937C-3617514BFD2C" selectedImage="2B84A125-4A16-4E36-937C-3617514BFD2C" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.34999999999999998" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="avm-GH-94X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1059,7 +1088,7 @@
         <scene sceneID="RvS-XD-Jtg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GFQ-x6-nb6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="5A02535F-CF9D-41BC-AA74-1AF4F10AF8C0" selectedImage="5A02535F-CF9D-41BC-AA74-1AF4F10AF8C0" id="bGg-p4-7Av"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="7100018F-0B89-432A-9EB6-1F740FF3AA8D" selectedImage="7100018F-0B89-432A-9EB6-1F740FF3AA8D" id="bGg-p4-7Av"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="3Yp-V6-mWX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -2516,7 +2545,7 @@
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="UEP-Wl-y4k">
-                            <rect key="frame" x="112.5" y="5.5" width="150" height="33"/>
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15934735_10210060890212080_1595820195_n.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bFj-RN-rcA">
@@ -2987,7 +3016,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="d9i-TM-qNv">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="PpG-jd-Bmp"/>
+                        <barButtonItem key="leftBarButtonItem" image="Back-26.png" id="PpG-jd-Bmp">
+                            <connections>
+                                <segue destination="Q80-6w-JHR" kind="show" id="ojR-VQ-ol4"/>
+                            </connections>
+                        </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="r68-69-zBA">
                             <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3615,7 +3648,7 @@
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="ZFg-FY-bET">
-                            <rect key="frame" x="112.5" y="5.5" width="150" height="33"/>
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15934735_10210060890212080_1595820195_n.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFT-cd-j00">
@@ -3745,7 +3778,7 @@
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="dcz-lb-GS5">
-                            <rect key="frame" x="112.5" y="5.5" width="150" height="33"/>
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15934735_10210060890212080_1595820195_n.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9xI-kO-ATy">
@@ -3873,7 +3906,7 @@
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="dKv-uu-QL9">
-                            <rect key="frame" x="112.5" y="5.5" width="150" height="33"/>
+                            <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15934735_10210060890212080_1595820195_n.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eyg-U4-XyA">
@@ -4222,6 +4255,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="pyI-dZ-JVg">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="Back-26.png" style="plain" id="3aF-r1-nr0">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KEt-a6-W5F">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <connections>
+                                <segue destination="0zR-Xw-cem" kind="show" id="Ryl-eA-ABG"/>
+                            </connections>
+                        </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="g4t-8n-WZg">
                             <rect key="frame" x="113" y="6" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4524,7 +4567,7 @@
         <image name="15879367_10210070566253975_367807476_n.png" width="500" height="500"/>
         <image name="15934735_10210060890212080_1595820195_n.png" width="778" height="355"/>
         <image name="17820240_10210885673711152_433637189_o.png" width="1563" height="1697"/>
-        <image name="5A02535F-CF9D-41BC-AA74-1AF4F10AF8C0" width="25" height="25">
+        <image name="2B84A125-4A16-4E36-937C-3617514BFD2C" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -4635,7 +4678,7 @@ oACiAKQApgCoAK0AxADGAMgXnhejF64XtxfKF84X2RfiF+cX7xfyF/cYBhgKGBEYGRgmGCsYLRgvGDQY
 PBg/GEQYTBhPGGEYZBhpAAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAAGGs
 </mutableData>
         </image>
-        <image name="5A797741-75C6-4AB2-91CF-FEA3F9D67EE9" width="25" height="25">
+        <image name="7100018F-0B89-432A-9EB6-1F740FF3AA8D" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -4746,6 +4789,7 @@ oACiAKQApgCoAK0AxADGAMgXnhejF64XtxfKF84X2RfiF+cX7xfyF/cYBhgKGBEYGRgmGCsYLRgvGDQY
 PBg/GEQYTBhPGGEYZBhpAAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAAGGs
 </mutableData>
         </image>
+        <image name="Add-26.png" width="26" height="26"/>
         <image name="Back-26.png" width="26" height="26"/>
         <image name="Back-50.png" width="50" height="50"/>
         <image name="Calendar Filled-26.png" width="26" height="26"/>
@@ -4765,32 +4809,33 @@ PBg/GEQYTBhPGGEYZBhpAAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAAGGs
         <image name="SanctuaryGolfCourseScorecardDesign2.jpg" width="1468" height="1048"/>
         <image name="Search-26.png" width="26" height="26"/>
         <image name="User-100.png" width="100" height="100"/>
+        <image name="Visible-26.png" width="26" height="26"/>
         <image name="beautiful_golf_course-wallpaper-960x640.jpg" width="960" height="640"/>
         <image name="golfer-swinging-sunset.png" width="964" height="374"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FJp-5v-I2I"/>
-        <segue reference="yuc-FM-eON"/>
-        <segue reference="buH-R3-Pgf"/>
-        <segue reference="DaW-7N-Hl2"/>
+        <segue reference="CBW-Z6-JVd"/>
         <segue reference="YYZ-jc-OMX"/>
-        <segue reference="xZ1-r9-15j"/>
-        <segue reference="hon-zd-Kin"/>
-        <segue reference="cLB-KT-nHH"/>
-        <segue reference="gIw-o0-j6c"/>
-        <segue reference="sbQ-ta-LLO"/>
-        <segue reference="vpn-ik-jhq"/>
-        <segue reference="kFn-jm-iU5"/>
-        <segue reference="avV-Ih-0cP"/>
-        <segue reference="haG-Ut-PvI"/>
-        <segue reference="ulv-F0-Oqd"/>
-        <segue reference="t61-Wj-e5O"/>
+        <segue reference="qr7-of-MoC"/>
+        <segue reference="Bdc-fE-lGp"/>
+        <segue reference="ojR-VQ-ol4"/>
         <segue reference="lCM-tL-A91"/>
         <segue reference="DcL-LD-dmo"/>
-        <segue reference="yAL-zd-XN0"/>
         <segue reference="Vgw-5T-1hH"/>
         <segue reference="yoh-Ww-dU9"/>
         <segue reference="dYN-uc-AST"/>
+        <segue reference="Ryl-eA-ABG"/>
+        <segue reference="vpn-ik-jhq"/>
+        <segue reference="kFn-jm-iU5"/>
+        <segue reference="avV-Ih-0cP"/>
+        <segue reference="ulv-F0-Oqd"/>
+        <segue reference="t61-Wj-e5O"/>
+        <segue reference="buH-R3-Pgf"/>
+        <segue reference="DaW-7N-Hl2"/>
+        <segue reference="xZ1-r9-15j"/>
+        <segue reference="hon-zd-Kin"/>
+        <segue reference="cLB-KT-nHH"/>
+        <segue reference="yuc-FM-eON"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
