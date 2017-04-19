@@ -36,6 +36,7 @@
 		200DFD1B1EA44E4D00BB9A61 /* MapViewController24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1A1EA44E4D00BB9A61 /* MapViewController24.swift */; };
 		200DFD1D1EA44F0900BB9A61 /* Scorecard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */; };
 		200DFD1F1EA44F3400BB9A61 /* Scorecard2Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */; };
+		2011E9D61EA7B16800CAB37C /* TimesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011E9D51EA7B16800CAB37C /* TimesCell.swift */; };
 		201711F01E4D0CC300350258 /* User-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711EF1E4D0CC300350258 /* User-100.png */; };
 		201711F21E4D0CCE00350258 /* Home-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F11E4D0CCE00350258 /* Home-96.png */; };
 		201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */; };
@@ -48,6 +49,8 @@
 		204C83A81EA289920043EFA1 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A71EA289920043EFA1 /* TableViewController1.swift */; };
 		204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */; };
 		2054F2191EA4072200609FAB /* paper_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2054F2181EA4072200609FAB /* paper_onboarding.framework */; };
+		205775211EA7A790002B8846 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205775201EA7A790002B8846 /* Time.swift */; };
+		205775231EA7AC1B002B8846 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205775221EA7AC1B002B8846 /* TimetableViewController.swift */; };
 		2058CC031EA6DF7700A30C20 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */; };
 		205D744C1E9FC0DC00043354 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744B1E9FC0DC00043354 /* UsersViewController.swift */; };
 		205D74501E9FC16B00043354 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D744F1E9FC16B00043354 /* User.swift */; };
@@ -135,6 +138,7 @@
 		200DFD1A1EA44E4D00BB9A61 /* MapViewController24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController24.swift; sourceTree = "<group>"; };
 		200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard2.swift; sourceTree = "<group>"; };
 		200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard2Final.swift; sourceTree = "<group>"; };
+		2011E9D51EA7B16800CAB37C /* TimesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesCell.swift; sourceTree = "<group>"; };
 		201711EF1E4D0CC300350258 /* User-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User-100.png"; path = "../../../Downloads/User-100.png"; sourceTree = "<group>"; };
 		201711F11E4D0CCE00350258 /* Home-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-96.png"; path = "../../../Downloads/Home-96.png"; sourceTree = "<group>"; };
 		201711F41E4D0D7800350258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/15879367_10210070566253975_367807476_n.png; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 		204C83A91EA292A40043EFA1 /* Scorecard1Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard1Final.swift; sourceTree = "<group>"; };
 		2054F2131EA4011400609FAB /* 2Golf4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 2Golf4.entitlements; sourceTree = "<group>"; };
 		2054F2181EA4072200609FAB /* paper_onboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = paper_onboarding.framework; path = "../../Library/Developer/Xcode/DerivedData/2Golf4-gwotslwjxhrudaeuojyejbvcjtrf/Build/Products/Debug-iphonesimulator/paper-onboarding/paper_onboarding.framework"; sourceTree = "<group>"; };
+		205775201EA7A790002B8846 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		205775221EA7AC1B002B8846 /* TimetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		205C489E1E20535B00955FA8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		205D744B1E9FC0DC00043354 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
@@ -334,6 +340,7 @@
 				205D745A1EA024A000043354 /* FeedViewController.swift */,
 				20A329C61E96E2D700C6D169 /* TableViewController.swift */,
 				205D744B1E9FC0DC00043354 /* UsersViewController.swift */,
+				205775221EA7AC1B002B8846 /* TimetableViewController.swift */,
 			);
 			name = News;
 			sourceTree = "<group>";
@@ -361,6 +368,7 @@
 				2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */,
 				205D744F1E9FC16B00043354 /* User.swift */,
 				205D74581EA0240600043354 /* Post.swift */,
+				205775201EA7A790002B8846 /* Time.swift */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -370,6 +378,7 @@
 			children = (
 				205D74561EA0237E00043354 /* PostCell.swift */,
 				205D74521E9FD65E00043354 /* UserCell.swift */,
+				2011E9D51EA7B16800CAB37C /* TimesCell.swift */,
 			);
 			name = "Custom Cell";
 			sourceTree = "<group>";
@@ -669,6 +678,7 @@
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
 				200DFD031EA4384D00BB9A61 /* MapViewController2S3.swift in Sources */,
+				205775211EA7A790002B8846 /* Time.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
 				20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */,
 				200DFD011EA4381500BB9A61 /* MapViewControllerS3.swift in Sources */,
@@ -685,9 +695,11 @@
 				200DFD1B1EA44E4D00BB9A61 /* MapViewController24.swift in Sources */,
 				204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */,
 				205D74571EA0237E00043354 /* PostCell.swift in Sources */,
+				2011E9D61EA7B16800CAB37C /* TimesCell.swift in Sources */,
 				200BB4A11E9C4AA400FFFF5D /* EditProfile.swift in Sources */,
 				200DFD091EA438C800BB9A61 /* Scorecard3.swift in Sources */,
 				200DFD051EA4387000BB9A61 /* MapViewController3S3.swift in Sources */,
+				205775231EA7AC1B002B8846 /* TimetableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

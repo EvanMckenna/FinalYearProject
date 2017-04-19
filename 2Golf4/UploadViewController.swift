@@ -35,16 +35,16 @@ class UploadViewController: UIViewController {
         let uid = FIRAuth.auth()!.currentUser!.uid
         let ref = FIRDatabase.database().reference()
         
-        let key = ref.child("posts").childByAutoId().key
+        let key = ref.child("times").childByAutoId().key
         
         let feed = ["userID" : uid,
                     "date" : [".sv": "timestamp"],
                     "author" : FIRAuth.auth()!.currentUser!.displayName!,
-                    "post" : self.previewText.text!,
-        "postID" : key] as [String : Any]
+                    "time" : self.previewText.text!,
+        "timeID" : key] as [String : Any]
         
         let postFeed = ["\(key)" : feed]
-        ref.child("posts").updateChildValues(postFeed)
+        ref.child("times").updateChildValues(postFeed)
         
         
         AppDelegate.instance().dismissActivityIndicator()

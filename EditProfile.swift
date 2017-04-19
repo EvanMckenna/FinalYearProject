@@ -58,13 +58,6 @@ class EditProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
         self.present(picker, animated: true, completion: nil)
     }
     
-    @IBAction func uploadbannerimageButton(_ sender: Any) {
-        let picker = UIImagePickerController()
-        picker.delegate = self
-        picker.allowsEditing = true
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
-        self.present(picker, animated: true, completion: nil)
-    }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
