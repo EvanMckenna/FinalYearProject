@@ -25,6 +25,17 @@
 		200BB4B31E9C612500FFFF5D /* Chat-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4B21E9C612500FFFF5D /* Chat-26-2.png */; };
 		200BB4B51E9C614400FFFF5D /* Calendar Filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4B41E9C614400FFFF5D /* Calendar Filled-26.png */; };
 		200CCEA61EA4211C00E72FE1 /* Add Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 200CCEA51EA4211C00E72FE1 /* Add Filled-50.png */; };
+		200D103B1EA8288B000F3356 /* Timetable-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D103A1EA8288B000F3356 /* Timetable-2.png */; };
+		200D103D1EA828E4000F3356 /* Courses.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D103C1EA828E4000F3356 /* Courses.png */; };
+		200D10411EA82C68000F3356 /* Courses-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10401EA82C68000F3356 /* Courses-2.png */; };
+		200D10471EA82D53000F3356 /* Timetable-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10461EA82D53000F3356 /* Timetable-3.png */; };
+		200D104D1EA8308F000F3356 /* News-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D104C1EA8308F000F3356 /* News-2.png */; };
+		200D104F1EA830D0000F3356 /* Courses-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D104E1EA830D0000F3356 /* Courses-3.png */; };
+		200D10511EA830D8000F3356 /* Profile-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10501EA830D8000F3356 /* Profile-3.png */; };
+		200D10531EA83269000F3356 /* Profile-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10521EA83269000F3356 /* Profile-4.png */; };
+		200D10611EA83D76000F3356 /* Timetable-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10601EA83D76000F3356 /* Timetable-6.png */; };
+		200D10651EA83ECF000F3356 /* Scorecard-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 200D10641EA83ECF000F3356 /* Scorecard-6.png */; };
+		200D10671EA84840000F3356 /* CoursesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200D10661EA84840000F3356 /* CoursesTable.swift */; };
 		200DFD011EA4381500BB9A61 /* MapViewControllerS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD001EA4381500BB9A61 /* MapViewControllerS3.swift */; };
 		200DFD031EA4384D00BB9A61 /* MapViewController2S3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD021EA4384D00BB9A61 /* MapViewController2S3.swift */; };
 		200DFD051EA4387000BB9A61 /* MapViewController3S3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DFD041EA4387000BB9A61 /* MapViewController3S3.swift */; };
@@ -41,6 +52,8 @@
 		201711F21E4D0CCE00350258 /* Home-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F11E4D0CCE00350258 /* Home-96.png */; };
 		201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */; };
 		201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201823F71E43B77C0007F478 /* SWRevealViewController.m */; };
+		201AC8511EA91D22001DAB7F /* White Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 201AC8501EA91D22001DAB7F /* White Logo.png */; };
+		201AC8531EA91D86001DAB7F /* White Logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 201AC8521EA91D86001DAB7F /* White Logo-2.png */; };
 		201DF6671E8C675900BD7E93 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201DF6661E8C675900BD7E93 /* Home2.swift */; };
 		201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */; };
 		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
@@ -66,6 +79,7 @@
 		207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207400D61E567CB5007D7645 /* GoogleService-Info.plist */; };
 		20781E411E68C7460011B44D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20781E401E68C7460011B44D /* ProfileController.swift */; };
 		20781E441E68D2B30011B44D /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20781E421E68D2B30011B44D /* main.storyboard */; };
+		207DE1F41EA902B0004CC9D3 /* BG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 207DE1F31EA902B0004CC9D3 /* BG2.png */; };
 		208C6A121EA18E0F00A8E0EB /* Plus Math-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */; };
 		208C6A141EA18E4700A8E0EB /* Search-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 208C6A131EA18E4700A8E0EB /* Search-26.png */; };
 		209CFB711E79F28300B6D78A /* HoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CFB701E79F28300B6D78A /* HoleViewController.swift */; };
@@ -130,6 +144,17 @@
 		200BB4B21E9C612500FFFF5D /* Chat-26-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chat-26-2.png"; sourceTree = "<group>"; };
 		200BB4B41E9C614400FFFF5D /* Calendar Filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar Filled-26.png"; sourceTree = "<group>"; };
 		200CCEA51EA4211C00E72FE1 /* Add Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Filled-50.png"; path = "../../../Downloads/Add Filled-50.png"; sourceTree = "<group>"; };
+		200D103A1EA8288B000F3356 /* Timetable-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-2.png"; sourceTree = "<group>"; };
+		200D103C1EA828E4000F3356 /* Courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Courses.png; sourceTree = "<group>"; };
+		200D10401EA82C68000F3356 /* Courses-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Courses-2.png"; sourceTree = "<group>"; };
+		200D10461EA82D53000F3356 /* Timetable-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-3.png"; sourceTree = "<group>"; };
+		200D104C1EA8308F000F3356 /* News-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News-2.png"; sourceTree = "<group>"; };
+		200D104E1EA830D0000F3356 /* Courses-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Courses-3.png"; sourceTree = "<group>"; };
+		200D10501EA830D8000F3356 /* Profile-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-3.png"; sourceTree = "<group>"; };
+		200D10521EA83269000F3356 /* Profile-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-4.png"; sourceTree = "<group>"; };
+		200D10601EA83D76000F3356 /* Timetable-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-6.png"; sourceTree = "<group>"; };
+		200D10641EA83ECF000F3356 /* Scorecard-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scorecard-6.png"; sourceTree = "<group>"; };
+		200D10661EA84840000F3356 /* CoursesTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesTable.swift; sourceTree = "<group>"; };
 		200DFD001EA4381500BB9A61 /* MapViewControllerS3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerS3.swift; sourceTree = "<group>"; };
 		200DFD021EA4384D00BB9A61 /* MapViewController2S3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController2S3.swift; sourceTree = "<group>"; };
 		200DFD041EA4387000BB9A61 /* MapViewController3S3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController3S3.swift; sourceTree = "<group>"; };
@@ -148,6 +173,8 @@
 		201823F51E43B77B0007F478 /* 2Golf4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2Golf4-Bridging-Header.h"; sourceTree = "<group>"; };
 		201823F61E43B77C0007F478 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		201823F71E43B77C0007F478 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		201AC8501EA91D22001DAB7F /* White Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Logo.png"; sourceTree = "<group>"; };
+		201AC8521EA91D86001DAB7F /* White Logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Logo-2.png"; sourceTree = "<group>"; };
 		201DF6661E8C675900BD7E93 /* Home2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
 		201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beautiful_golf_course-wallpaper-960x640.jpg"; sourceTree = "<group>"; };
 		201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golfer-swinging-sunset.png"; sourceTree = "<group>"; };
@@ -175,6 +202,7 @@
 		207400D61E567CB5007D7645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20781E401E68C7460011B44D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = ../ProfileController.swift; sourceTree = "<group>"; };
 		20781E431E68D2B30011B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
+		207DE1F31EA902B0004CC9D3 /* BG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG2.png; sourceTree = "<group>"; };
 		208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus Math-26.png"; sourceTree = "<group>"; };
 		208C6A131EA18E4700A8E0EB /* Search-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-26.png"; sourceTree = "<group>"; };
 		209CFB701E79F28300B6D78A /* HoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleViewController.swift; sourceTree = "<group>"; };
@@ -268,6 +296,7 @@
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				200D10661EA84840000F3356 /* CoursesTable.swift */,
 				2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */,
 				200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */,
 				200DFD1E1EA44F3400BB9A61 /* Scorecard2Final.swift */,
@@ -392,6 +421,17 @@
 		20781E3B1E68BC900011B44D /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				201AC8501EA91D22001DAB7F /* White Logo.png */,
+				207DE1F31EA902B0004CC9D3 /* BG2.png */,
+				201AC8521EA91D86001DAB7F /* White Logo-2.png */,
+				200D10641EA83ECF000F3356 /* Scorecard-6.png */,
+				200D10601EA83D76000F3356 /* Timetable-6.png */,
+				200D10521EA83269000F3356 /* Profile-4.png */,
+				200D104E1EA830D0000F3356 /* Courses-3.png */,
+				200D10501EA830D8000F3356 /* Profile-3.png */,
+				200D10461EA82D53000F3356 /* Timetable-3.png */,
+				200D104C1EA8308F000F3356 /* News-2.png */,
+				200D10401EA82C68000F3356 /* Courses-2.png */,
 				2043205A1EA7F084005C3846 /* Visible-26.png */,
 				204320581EA7F02F005C3846 /* Add-26.png */,
 				204320551EA7EE1C005C3846 /* 15909197_10210061176979249_416942335_o.png */,
@@ -399,6 +439,7 @@
 				208C6A131EA18E4700A8E0EB /* Search-26.png */,
 				208C6A111EA18E0F00A8E0EB /* Plus Math-26.png */,
 				200BB4B21E9C612500FFFF5D /* Chat-26-2.png */,
+				200D103C1EA828E4000F3356 /* Courses.png */,
 				200BB4AA1E9C5FE400FFFF5D /* Home-26-2.png */,
 				200BB4A81E9C5FBC00FFFF5D /* Home-26.png */,
 				200BB4AE1E9C60DB00FFFF5D /* Golf Ball Filled-26-2.png */,
@@ -417,6 +458,7 @@
 				200BB4AC1E9C60CF00FFFF5D /* Leaderboard-26.png */,
 				201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */,
 				201DF6681E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg */,
+				200D103A1EA8288B000F3356 /* Timetable-2.png */,
 				20BD36A51E83406D002E3052 /* Back-50.png */,
 				20BD36861E832A03002E3052 /* Forward-50-2.png */,
 				209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */,
@@ -562,14 +604,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				208C6A141EA18E4700A8E0EB /* Search-26.png in Resources */,
+				207DE1F41EA902B0004CC9D3 /* BG2.png in Resources */,
 				200BB4B11E9C60E200FFFF5D /* News Filled-26.png in Resources */,
 				20A329C31E96D73D00C6D169 /* Back-26.png in Resources */,
+				200D10531EA83269000F3356 /* Profile-4.png in Resources */,
 				20BD36A61E83406D002E3052 /* Back-50.png in Resources */,
 				20BD36991E833F8D002E3052 /* Roboto-Black.ttf in Resources */,
 				20A329B91E96C83F00C6D169 /* 17792329_10210885438505272_1185906875_n.png in Resources */,
 				20BD369A1E833F8D002E3052 /* Roboto-BlackItalic.ttf in Resources */,
 				201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */,
 				2043205B1EA7F084005C3846 /* Visible-26.png in Resources */,
+				200D10611EA83D76000F3356 /* Timetable-6.png in Resources */,
 				204320561EA7EE1C005C3846 /* 15909197_10210061176979249_416942335_o.png in Resources */,
 				20A329C11E96D37F00C6D169 /* Golf Ball Filled-26.png in Resources */,
 				20BD369B1E833F8D002E3052 /* Roboto-Bold.ttf in Resources */,
@@ -581,14 +626,18 @@
 				200BB4A71E9C5EA900FFFF5D /* Menu Filled-26.png in Resources */,
 				20BD369E1E833F8D002E3052 /* Roboto-Light.ttf in Resources */,
 				200BB4A91E9C5FBC00FFFF5D /* Home-26.png in Resources */,
+				200D10651EA83ECF000F3356 /* Scorecard-6.png in Resources */,
+				200D103B1EA8288B000F3356 /* Timetable-2.png in Resources */,
 				204320591EA7F02F005C3846 /* Add-26.png in Resources */,
 				20BD369F1E833F8D002E3052 /* Roboto-LightItalic.ttf in Resources */,
 				208C6A121EA18E0F00A8E0EB /* Plus Math-26.png in Resources */,
 				20BD36A01E833F8D002E3052 /* Roboto-Medium.ttf in Resources */,
 				20BD36A11E833F8D002E3052 /* Roboto-MediumItalic.ttf in Resources */,
 				20BD36A21E833F8D002E3052 /* Roboto-Regular.ttf in Resources */,
+				201AC8531EA91D86001DAB7F /* White Logo-2.png in Resources */,
 				200CCEA61EA4211C00E72FE1 /* Add Filled-50.png in Resources */,
 				20A329BF1E96D31E00C6D169 /* Golf Ball Filled-50.png in Resources */,
+				200D10471EA82D53000F3356 /* Timetable-3.png in Resources */,
 				200BB4A51E9C5E8700FFFF5D /* Menu-26.png in Resources */,
 				20BD36A31E833F8D002E3052 /* Roboto-Thin.ttf in Resources */,
 				20BD36A41E833F8D002E3052 /* Roboto-ThinItalic.ttf in Resources */,
@@ -597,20 +646,26 @@
 				201711F21E4D0CCE00350258 /* Home-96.png in Resources */,
 				2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */,
 				200BB4AB1E9C5FE400FFFF5D /* Home-26-2.png in Resources */,
+				200D104F1EA830D0000F3356 /* Courses-3.png in Resources */,
+				200D103D1EA828E4000F3356 /* Courses.png in Resources */,
 				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
 				200BB4B31E9C612500FFFF5D /* Chat-26-2.png in Resources */,
+				200D10511EA830D8000F3356 /* Profile-3.png in Resources */,
 				200BB4B51E9C614400FFFF5D /* Calendar Filled-26.png in Resources */,
 				2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */,
+				201AC8511EA91D22001DAB7F /* White Logo.png in Resources */,
 				20A329BD1E96D1A500C6D169 /* Contacts-26.png in Resources */,
 				201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */,
 				200BB4AD1E9C60CF00FFFF5D /* Leaderboard-26.png in Resources */,
 				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
+				200D104D1EA8308F000F3356 /* News-2.png in Resources */,
 				209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */,
 				20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */,
 				201711F31E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png in Resources */,
 				20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */,
 				200BB4AF1E9C60DB00FFFF5D /* Golf Ball Filled-26-2.png in Resources */,
+				200D10411EA82C68000F3356 /* Courses-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +741,7 @@
 				20BD36851E83274D002E3052 /* MapViewController2.swift in Sources */,
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
 				205D74501E9FC16B00043354 /* User.swift in Sources */,
+				200D10671EA84840000F3356 /* CoursesTable.swift in Sources */,
 				200DFD171EA44E0200BB9A61 /* MapViewController22.swift in Sources */,
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,

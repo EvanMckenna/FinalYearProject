@@ -15,6 +15,8 @@ import FirebaseAuth
 
 class MapViewController: UIViewController {
     
+    @IBOutlet var Open: UIBarButtonItem!
+    
     var ref: FIRDatabaseReference?
     
     
@@ -25,6 +27,11 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+   
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
         
         ref = FIRDatabase.database().reference()
         
@@ -51,13 +58,11 @@ class MapViewController: UIViewController {
     
     @IBAction func Accept(_ sender: Any) {
         
-        
         let score1 = self.textView.text!
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole1").setValue(textView.text)
     }
-    
-    
+   
     /*
      // MARK: - Navigation
      

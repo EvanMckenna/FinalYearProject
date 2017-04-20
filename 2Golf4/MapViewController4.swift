@@ -14,6 +14,7 @@ import FirebaseAuth
 
 class MapViewController4: UIViewController {
 
+    @IBOutlet var Open: UIBarButtonItem!
     var ref: FIRDatabaseReference?
     var coreLocationManager =  CLLocationManager()
     
@@ -23,6 +24,12 @@ class MapViewController4: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+  
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
+   
         ref = FIRDatabase.database().reference()
 
         self.navigationItem.setHidesBackButton(true, animated: false)
@@ -45,14 +52,13 @@ class MapViewController4: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Accept1(_ sender: Any) {
-        
+  
+
+    @IBAction func Accept(_ sender: Any) {
         let score1 = self.textView.text!
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard1").child("Hole4").setValue(textView.text)
-        
     }
-
     
     /*
      // MARK: - Navigation

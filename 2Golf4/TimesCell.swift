@@ -25,22 +25,11 @@ class TimesCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         
-        ref = FIRDatabase.database().reference()
 
         
-        if let user = FIRAuth.auth()?.currentUser        {
-            self.deleteButton.alpha = 0.0
-            
-        }
-        else
-        {
-            self.deleteButton.alpha = 0.0
-        }
-        
-    }
-
     
     
 
 
+}
 }

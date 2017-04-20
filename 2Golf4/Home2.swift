@@ -20,7 +20,15 @@ class Home2: UIViewController {
         
         self.navigationItem.setHidesBackButton(true, animated: false)
         
-
+        for parent in navigationController!.view.subviews {
+            for child in parent.subviews {
+                for view in child.subviews {
+                    if view is UIImageView && view.frame.height == 0.5 {
+                        view.alpha = 0
+                    }
+                }
+            }
+        }
         
         
         Open.target = self.revealViewController()

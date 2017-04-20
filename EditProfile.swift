@@ -37,8 +37,74 @@ class EditProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
         
         ref = FIRDatabase.database().reference()
 
-        self.navigationItem.hidesBackButton = true
         
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+            ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                let dictionary = snapshot.value as? NSDictionary
+                
+                let fullName = dictionary?["FullName"] as? String ?? "Full name"
+                
+                self.FName.text = fullName
+                
+                
+            })
+        }
+        
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+            ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                let dictionary = snapshot.value as? NSDictionary
+                
+                let Username = dictionary?["Username"] as? String ?? "Username"
+                
+                self.Username.text = Username
+                
+                
+            })
+        }
+        
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+            ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                let dictionary = snapshot.value as? NSDictionary
+                
+                let Age = dictionary?["Age"] as? String ?? "Age"
+                
+                self.Age.text = Age
+                
+            })
+        }
+        
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+            ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                let dictionary = snapshot.value as? NSDictionary
+                
+                let Handicap = dictionary?["Handicap"] as? String ?? "Handicap"
+                
+                self.Handicap.text = Handicap
+                
+                
+            })
+        }
+        
+        if let userID = FIRAuth.auth()?.currentUser?.uid{
+            ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in
+                
+                let dictionary = snapshot.value as? [String: AnyObject]
+                let profileImageURL = dictionary?["pics"] as? String ?? "Pic"
+                
+                let url = URL(string: profileImageURL)
+                URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
+                    if error != nil{
+                        print(error)
+                        return
+                    }
+                    DispatchQueue.main.async{
+                        self.profile_image?.image = UIImage(data: data!)
+                    }
+                }).resume()
+            })
+        }
+        
+
 
         // Do any additional setup after loading the view.
     }

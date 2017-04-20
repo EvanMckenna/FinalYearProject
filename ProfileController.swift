@@ -22,7 +22,6 @@ class ProfileController: UIViewController {
     @IBOutlet var userName: UILabel!
     @IBOutlet var firstName: UILabel!
     @IBOutlet var Open: UIBarButtonItem!    
-    @IBOutlet var ImagePicker: UIImageView!
     @IBOutlet var Username: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +34,9 @@ class ProfileController: UIViewController {
         
         
         
-       
-                
+            self.view.layoutIfNeeded()
+             profile_image.layer.cornerRadius = profile_image.frame.size.width/2
+             profile_image.clipsToBounds = true
             
         if let userID = FIRAuth.auth()?.currentUser?.uid{
             ref?.child("users").child(userID).observeSingleEvent(of: .value, with: { (snapshot) in

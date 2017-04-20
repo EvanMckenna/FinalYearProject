@@ -16,19 +16,19 @@ import FirebaseAuth
 class MapViewController2: UIViewController {
     
     var ref: FIRDatabaseReference?
-
-
+    
+    
     var coreLocationManager =  CLLocationManager()
     
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var textView: UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         ref = FIRDatabase.database().reference()
-
-             self.navigationItem.setHidesBackButton(true, animated: false)
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
         
         let distanceSpan:CLLocationDegrees = 300
         mapView.mapType = MKMapType.satellite
@@ -48,9 +48,9 @@ class MapViewController2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-  
+    
+    
     @IBAction func Accept(_ sender: Any) {
-        
         
         let score1 = self.textView.text!
         

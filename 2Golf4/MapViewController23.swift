@@ -50,13 +50,12 @@ class MapViewController23: UIViewController {
     
     
     
-    
-    
     @IBAction func Accept(_ sender: Any) {
-        
-        
-        ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard2").child("Hole3").setValue(textView.text)
+         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard2").child("Hole3").setValue(textView.text)
     }
+    
+    
+    
     /*
      // MARK: - Navigation
      

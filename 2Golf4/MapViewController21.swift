@@ -51,11 +51,11 @@ class MapViewController21: UIViewController {
     
     @IBAction func Accept(_ sender: Any) {
         
-        
         let score1 = self.textView.text!
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Scorecard2").child("Hole1").setValue(textView.text)
     }
+    
     
     
     /*
