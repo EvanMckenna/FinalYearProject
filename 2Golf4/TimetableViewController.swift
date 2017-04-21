@@ -15,7 +15,7 @@ class TimetableViewController: UIViewController, UITableViewDelegate,UITableView
     @IBOutlet var datePickerText: UITextField!
     @IBOutlet var tableView: UITableView!
     
-    
+
     var timeList = [TimeModel]()
     
     
@@ -45,6 +45,8 @@ class TimetableViewController: UIViewController, UITableViewDelegate,UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+                self.navigationItem.setHidesBackButton(true, animated: false)
         
         ref = FIRDatabase.database().reference()
         

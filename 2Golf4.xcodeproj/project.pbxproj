@@ -115,6 +115,9 @@
 		20BD36A41E833F8D002E3052 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36981E833CB6002E3052 /* Roboto-ThinItalic.ttf */; };
 		20BD36A61E83406D002E3052 /* Back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36A51E83406D002E3052 /* Back-50.png */; };
 		20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C67C0C1E2579DB00889533 /* Menu-25.png */; };
+		20D1D3851EAA4DB200E3BAB4 /* Hole13D.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D1D3841EAA4DB200E3BAB4 /* Hole13D.png */; };
+		20D1D3871EAA530D00E3BAB4 /* 3DHole1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */; };
+		20D1D3891EAA7F1800E3BAB4 /* Contacts-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D1D3881EAA7F1800E3BAB4 /* Contacts-26-2.png */; };
 		E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */; };
 /* End PBXBuildFile section */
 
@@ -238,6 +241,9 @@
 		20BD36981E833CB6002E3052 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		20BD36A51E83406D002E3052 /* Back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-50.png"; sourceTree = "<group>"; };
 		20C67C0C1E2579DB00889533 /* Menu-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu-25.png"; path = "../../../Downloads/Menu-25.png"; sourceTree = "<group>"; };
+		20D1D3841EAA4DB200E3BAB4 /* Hole13D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hole13D.png; sourceTree = "<group>"; };
+		20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3DHole1.swift; sourceTree = "<group>"; };
+		20D1D3881EAA7F1800E3BAB4 /* Contacts-26-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contacts-26-2.png"; sourceTree = "<group>"; };
 		4BAF054DED288F8E79496866 /* Pods_2Golf4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Golf4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4D718110997EFE8038010 /* Pods-2Golf4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4/Pods-2Golf4.release.xcconfig"; sourceTree = "<group>"; };
 		5B7CA3EDB690E1F9FC7C09A1 /* Pods-2Golf4-2Golf4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4-2Golf4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4-2Golf4Tests/Pods-2Golf4-2Golf4Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -296,6 +302,7 @@
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */,
 				200D10661EA84840000F3356 /* CoursesTable.swift */,
 				2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */,
 				200DFD1C1EA44F0900BB9A61 /* Scorecard2.swift */,
@@ -427,6 +434,7 @@
 				200D10641EA83ECF000F3356 /* Scorecard-6.png */,
 				200D10601EA83D76000F3356 /* Timetable-6.png */,
 				200D10521EA83269000F3356 /* Profile-4.png */,
+				20D1D3881EAA7F1800E3BAB4 /* Contacts-26-2.png */,
 				200D104E1EA830D0000F3356 /* Courses-3.png */,
 				200D10501EA830D8000F3356 /* Profile-3.png */,
 				200D10461EA82D53000F3356 /* Timetable-3.png */,
@@ -462,6 +470,7 @@
 				20BD36A51E83406D002E3052 /* Back-50.png */,
 				20BD36861E832A03002E3052 /* Forward-50-2.png */,
 				209CFB781E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png */,
+				20D1D3841EAA4DB200E3BAB4 /* Hole13D.png */,
 				209CFB7A1E7A034E00B6D78A /* 15934735_10210060890212080_1595820195_n.png */,
 				201711F51E4D0D7800350258 /* 15879367_10210070566253975_367807476_n.png */,
 				201711EF1E4D0CC300350258 /* User-100.png */,
@@ -649,6 +658,7 @@
 				200D104F1EA830D0000F3356 /* Courses-3.png in Resources */,
 				200D103D1EA828E4000F3356 /* Courses.png in Resources */,
 				207400D71E567CB5007D7645 /* GoogleService-Info.plist in Resources */,
+				20D1D3851EAA4DB200E3BAB4 /* Hole13D.png in Resources */,
 				200BB4B31E9C612500FFFF5D /* Chat-26-2.png in Resources */,
 				200D10511EA830D8000F3356 /* Profile-3.png in Resources */,
 				200BB4B51E9C614400FFFF5D /* Calendar Filled-26.png in Resources */,
@@ -656,6 +666,7 @@
 				201AC8511EA91D22001DAB7F /* White Logo.png in Resources */,
 				20A329BD1E96D1A500C6D169 /* Contacts-26.png in Resources */,
 				201DF6691E8C6A1300BD7E93 /* beautiful_golf_course-wallpaper-960x640.jpg in Resources */,
+				20D1D3891EAA7F1800E3BAB4 /* Contacts-26-2.png in Resources */,
 				200BB4AD1E9C60CF00FFFF5D /* Leaderboard-26.png in Resources */,
 				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
@@ -748,6 +759,7 @@
 				200DFD031EA4384D00BB9A61 /* MapViewController2S3.swift in Sources */,
 				205775211EA7A790002B8846 /* Time.swift in Sources */,
 				2006AEA61E2017B000FB683D /* FirstViewController.swift in Sources */,
+				20D1D3871EAA530D00E3BAB4 /* 3DHole1.swift in Sources */,
 				20A329C71E96E2D700C6D169 /* TableViewController.swift in Sources */,
 				200DFD011EA4381500BB9A61 /* MapViewControllerS3.swift in Sources */,
 				201823F81E43B77C0007F478 /* SWRevealViewController.m in Sources */,

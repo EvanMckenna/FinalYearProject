@@ -40,12 +40,12 @@ class MapViewController: UIViewController {
         let distanceSpan:CLLocationDegrees = 300
         mapView.mapType = MKMapType.satellite
         
-        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.23699879712496, -7.090306878089905)
+        let hole1:CLLocationCoordinate2D = CLLocationCoordinate2DMake(52.237354,  -7.092764)
         
         
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(hole1, distanceSpan, distanceSpan), animated: true)
         
-        let mapAnnotationClassPin = MapAnnotation(title: "Hole 2", subtitle: "Par 4 - 460 yds", coordinate: hole1)
+        let mapAnnotationClassPin = MapAnnotation(title: "Hole 1", subtitle: "Par 4 - 400 yds", coordinate: hole1)
         
         mapView.addAnnotation(mapAnnotationClassPin)
     }
