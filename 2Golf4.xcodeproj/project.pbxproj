@@ -13,6 +13,10 @@
 		2006AEAB1E2017B000FB683D /* storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEA91E2017B000FB683D /* storyboard */; };
 		2006AEAD1E2017B000FB683D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEAC1E2017B000FB683D /* Assets.xcassets */; };
 		2006AEB01E2017B000FB683D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2006AEAE1E2017B000FB683D /* LaunchScreen.storyboard */; };
+		20084A681EABBB4B00045485 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20084A671EABBB4B00045485 /* PaperOnboarding.framework */; };
+		20084A6A1EABBB5D00045485 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20084A671EABBB4B00045485 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20084A6C1EABBC3A00045485 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20084A6B1EABBC3A00045485 /* OnboardViewController.swift */; };
+		20084A6E1EABBCA900045485 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20084A6D1EABBCA900045485 /* OnboardingView.swift */; };
 		200BB4A11E9C4AA400FFFF5D /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */; };
 		200BB4A31E9C5E5200FFFF5D /* Edit Filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4A21E9C5E5200FFFF5D /* Edit Filled-26.png */; };
 		200BB4A51E9C5E8700FFFF5D /* Menu-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 200BB4A41E9C5E8700FFFF5D /* Menu-26.png */; };
@@ -59,7 +63,6 @@
 		201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66A1E8C6D0000BD7E93 /* golfer-swinging-sunset.png */; };
 		201DF66D1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 201DF66C1E8C6D1200BD7E93 /* SanctuaryGolfCourseScorecardDesign2.jpg */; };
 		204320561EA7EE1C005C3846 /* 15909197_10210061176979249_416942335_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 204320551EA7EE1C005C3846 /* 15909197_10210061176979249_416942335_o.png */; };
-		204320571EA7EF88005C3846 /* paper_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2054F2181EA4072200609FAB /* paper_onboarding.framework */; };
 		204320591EA7F02F005C3846 /* Add-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 204320581EA7F02F005C3846 /* Add-26.png */; };
 		2043205B1EA7F084005C3846 /* Visible-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 2043205A1EA7F084005C3846 /* Visible-26.png */; };
 		204C83A61EA2885A0043EFA1 /* ScorecardSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C83A51EA2885A0043EFA1 /* ScorecardSelect.swift */; };
@@ -114,12 +117,29 @@
 		20BD36A31E833F8D002E3052 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36971E833CB6002E3052 /* Roboto-Thin.ttf */; };
 		20BD36A41E833F8D002E3052 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36981E833CB6002E3052 /* Roboto-ThinItalic.ttf */; };
 		20BD36A61E83406D002E3052 /* Back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD36A51E83406D002E3052 /* Back-50.png */; };
+		20C2D9091EAAEAB200ED8EF8 /* Add-26 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 20C2D9081EAAEAB200ED8EF8 /* Add-26 (1).png */; };
+		20C2D90B1EAAEB7E00ED8EF8 /* Visible Filled-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C2D90A1EAAEB7E00ED8EF8 /* Visible Filled-26.png */; };
+		20C2D90D1EAAEBE100ED8EF8 /* Visible-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C2D90C1EAAEBE100ED8EF8 /* Visible-25.png */; };
 		20C67C0D1E2579DB00889533 /* Menu-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C67C0C1E2579DB00889533 /* Menu-25.png */; };
 		20D1D3851EAA4DB200E3BAB4 /* Hole13D.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D1D3841EAA4DB200E3BAB4 /* Hole13D.png */; };
 		20D1D3871EAA530D00E3BAB4 /* 3DHole1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */; };
 		20D1D3891EAA7F1800E3BAB4 /* Contacts-26-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D1D3881EAA7F1800E3BAB4 /* Contacts-26-2.png */; };
 		E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5DB3843D50A2D02F4483E9 /* Pods_2Golf4.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20739DE11EAB9FE900988DFD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20084A6A1EABBB5D00045485 /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A85BD10337942A116FCA501 /* Pods-2Golf4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Golf4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Golf4Tests/Pods-2Golf4Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +155,9 @@
 		2006AEBC1E2017B000FB683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2006AEC51E2017B000FB683D /* _Golf4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Golf4UITests.swift; sourceTree = "<group>"; };
 		2006AEC71E2017B000FB683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20084A671EABBB4B00045485 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaperOnboarding.framework; sourceTree = "<group>"; };
+		20084A6B1EABBC3A00045485 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		20084A6D1EABBCA900045485 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		200BB4A01E9C4AA400FFFF5D /* EditProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProfile.swift; path = ../EditProfile.swift; sourceTree = "<group>"; };
 		200BB4A21E9C5E5200FFFF5D /* Edit Filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit Filled-26.png"; sourceTree = "<group>"; };
 		200BB4A41E9C5E8700FFFF5D /* Menu-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-26.png"; sourceTree = "<group>"; };
@@ -240,6 +263,9 @@
 		20BD36971E833CB6002E3052 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		20BD36981E833CB6002E3052 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		20BD36A51E83406D002E3052 /* Back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-50.png"; sourceTree = "<group>"; };
+		20C2D9081EAAEAB200ED8EF8 /* Add-26 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-26 (1).png"; sourceTree = "<group>"; };
+		20C2D90A1EAAEB7E00ED8EF8 /* Visible Filled-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Visible Filled-26.png"; sourceTree = "<group>"; };
+		20C2D90C1EAAEBE100ED8EF8 /* Visible-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Visible-25.png"; sourceTree = "<group>"; };
 		20C67C0C1E2579DB00889533 /* Menu-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu-25.png"; path = "../../../Downloads/Menu-25.png"; sourceTree = "<group>"; };
 		20D1D3841EAA4DB200E3BAB4 /* Hole13D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hole13D.png; sourceTree = "<group>"; };
 		20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3DHole1.swift; sourceTree = "<group>"; };
@@ -265,7 +291,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204320571EA7EF88005C3846 /* paper_onboarding.framework in Frameworks */,
+				20084A681EABBB4B00045485 /* PaperOnboarding.framework in Frameworks */,
 				E38664F6EBB698B7879A089E /* Pods_2Golf4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +322,15 @@
 		2006AEA21E2017B000FB683D /* 2Golf4 */ = {
 			isa = PBXGroup;
 			children = (
+				20084A671EABBB4B00045485 /* PaperOnboarding.framework */,
 				2054F2131EA4011400609FAB /* 2Golf4.entitlements */,
 				205D74511E9FC18300043354 /* Custom Cell */,
 				205D74481E9FB9A000043354 /* Objects */,
 				2006AEA31E2017B000FB683D /* AppDelegate.swift */,
 				2006AEA91E2017B000FB683D /* storyboard */,
 				20781E421E68D2B30011B44D /* main.storyboard */,
+				20084A6D1EABBCA900045485 /* OnboardingView.swift */,
+				20084A6B1EABBC3A00045485 /* OnboardViewController.swift */,
 				20D1D3861EAA530D00E3BAB4 /* 3DHole1.swift */,
 				200D10661EA84840000F3356 /* CoursesTable.swift */,
 				2058CC021EA6DF7700A30C20 /* CalendarViewController.swift */,
@@ -429,13 +458,16 @@
 			isa = PBXGroup;
 			children = (
 				201AC8501EA91D22001DAB7F /* White Logo.png */,
+				20C2D9081EAAEAB200ED8EF8 /* Add-26 (1).png */,
 				207DE1F31EA902B0004CC9D3 /* BG2.png */,
 				201AC8521EA91D86001DAB7F /* White Logo-2.png */,
+				20C2D90C1EAAEBE100ED8EF8 /* Visible-25.png */,
 				200D10641EA83ECF000F3356 /* Scorecard-6.png */,
 				200D10601EA83D76000F3356 /* Timetable-6.png */,
 				200D10521EA83269000F3356 /* Profile-4.png */,
 				20D1D3881EAA7F1800E3BAB4 /* Contacts-26-2.png */,
 				200D104E1EA830D0000F3356 /* Courses-3.png */,
+				20C2D90A1EAAEB7E00ED8EF8 /* Visible Filled-26.png */,
 				200D10501EA830D8000F3356 /* Profile-3.png */,
 				200D10461EA82D53000F3356 /* Timetable-3.png */,
 				200D104C1EA8308F000F3356 /* News-2.png */,
@@ -556,6 +588,7 @@
 				2006AE9E1E2017B000FB683D /* Resources */,
 				E36E57A25DD1C991443BF8BB /* [CP] Embed Pods Frameworks */,
 				317B371D56453EF5DC829783 /* [CP] Copy Pods Resources */,
+				20739DE11EAB9FE900988DFD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -629,6 +662,7 @@
 				20BD369B1E833F8D002E3052 /* Roboto-Bold.ttf in Resources */,
 				20BD369C1E833F8D002E3052 /* Roboto-BoldItalic.ttf in Resources */,
 				20A329BB1E96CDAE00C6D169 /* 17820240_10210885673711152_433637189_o.png in Resources */,
+				20C2D9091EAAEAB200ED8EF8 /* Add-26 (1).png in Resources */,
 				20BD369D1E833F8D002E3052 /* Roboto-Italic.ttf in Resources */,
 				201DF66B1E8C6D0000BD7E93 /* golfer-swinging-sunset.png in Resources */,
 				200BB4A31E9C5E5200FFFF5D /* Edit Filled-26.png in Resources */,
@@ -642,6 +676,7 @@
 				208C6A121EA18E0F00A8E0EB /* Plus Math-26.png in Resources */,
 				20BD36A01E833F8D002E3052 /* Roboto-Medium.ttf in Resources */,
 				20BD36A11E833F8D002E3052 /* Roboto-MediumItalic.ttf in Resources */,
+				20C2D90D1EAAEBE100ED8EF8 /* Visible-25.png in Resources */,
 				20BD36A21E833F8D002E3052 /* Roboto-Regular.ttf in Resources */,
 				201AC8531EA91D86001DAB7F /* White Logo-2.png in Resources */,
 				200CCEA61EA4211C00E72FE1 /* Add Filled-50.png in Resources */,
@@ -670,6 +705,7 @@
 				200BB4AD1E9C60CF00FFFF5D /* Leaderboard-26.png in Resources */,
 				20781E441E68D2B30011B44D /* main.storyboard in Resources */,
 				2006AEAB1E2017B000FB683D /* storyboard in Resources */,
+				20C2D90B1EAAEB7E00ED8EF8 /* Visible Filled-26.png in Resources */,
 				200D104D1EA8308F000F3356 /* News-2.png in Resources */,
 				209CFB791E7A033200B6D78A /* 15934762_10210060875371709_915351557_n.png in Resources */,
 				20BD36871E832A03002E3052 /* Forward-50-2.png in Resources */,
@@ -753,6 +789,7 @@
 				2006AEA41E2017B000FB683D /* AppDelegate.swift in Sources */,
 				205D74501E9FC16B00043354 /* User.swift in Sources */,
 				200D10671EA84840000F3356 /* CoursesTable.swift in Sources */,
+				20084A6C1EABBC3A00045485 /* OnboardViewController.swift in Sources */,
 				200DFD171EA44E0200BB9A61 /* MapViewController22.swift in Sources */,
 				209CFB751E79F58400B6D78A /* LocationManager.swift in Sources */,
 				20BD368B1E832A7D002E3052 /* MapViewController4.swift in Sources */,
@@ -771,6 +808,7 @@
 				200DFD1F1EA44F3400BB9A61 /* Scorecard2Final.swift in Sources */,
 				209CFB731E79F47B00B6D78A /* MapViewController.swift in Sources */,
 				205D74531E9FD65E00043354 /* UserCell.swift in Sources */,
+				20084A6E1EABBCA900045485 /* OnboardingView.swift in Sources */,
 				205D745B1EA024A000043354 /* FeedViewController.swift in Sources */,
 				200DFD1B1EA44E4D00BB9A61 /* MapViewController24.swift in Sources */,
 				204C83AA1EA292A40043EFA1 /* Scorecard1Final.swift in Sources */,
@@ -920,6 +958,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E662V5G5GY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/2Golf4",
+				);
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4";
@@ -937,6 +979,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E662V5G5GY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/2Golf4",
+				);
 				INFOPLIST_FILE = 2Golf4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evan.-Golf4";

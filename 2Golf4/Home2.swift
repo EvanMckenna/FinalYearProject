@@ -10,6 +10,8 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import FirebaseDatabase
+import paper_onboarding
+
 
 class Home2: UIViewController {
 

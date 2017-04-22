@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 import IQKeyboardManagerSwift
+import PaperOnboarding
 
 @UIApplicationMain
 

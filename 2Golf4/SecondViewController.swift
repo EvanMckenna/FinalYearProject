@@ -27,10 +27,12 @@ class SecondViewController: UIViewController {
         
         ref = FIRDatabase.database().reference()
         
-        // Do any additional setup after loading the view, typically from a nib.
-  
+        //Creating round edges
+        
         popUpView.layer.cornerRadius = 10
         popUpView.layer.masksToBounds = true
+        
+        //Check if logged in 
         
         if let user = FIRAuth.auth()?.currentUser        {
             self.logoutButton.alpha=1.0
@@ -60,7 +62,7 @@ class SecondViewController: UIViewController {
 
     @IBAction func createAccountAction(_ sender: Any)
     {
-        
+        //If black do the following:
         if self.emailField.text == "" || self.passwordField.text == ""
         {
             
@@ -74,7 +76,8 @@ class SecondViewController: UIViewController {
         }
             
         else
-        {
+        {   // if details are correct, populate the database
+            
             FIRAuth.auth()?.createUser(withEmail: self.emailField.text!, password: self.passwordField.text!, completion: { (user, error) in
                 if error == nil
                 {

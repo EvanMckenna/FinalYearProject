@@ -146,6 +146,53 @@ class EditProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
    
     @IBAction func EditNames(_ sender: Any) {
         
+        if self.FName.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter a name!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
+
+        if self.Username.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter a username!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
+        if self.Age.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter your age!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
+        if self.Handicap.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter your handicap. If none, say none!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
+
+
         let userName = self.Username.text!
         
         ref?.child("users").child(FIRAuth.auth()!.currentUser!.uid).child("Username").setValue(Username.text)

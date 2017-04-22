@@ -29,27 +29,38 @@ class UploadViewController: UIViewController {
     }
     
 
-    @IBAction func postPressed(_ sender: Any) {
-        AppDelegate.instance().showActivityIndicator()
+    @IBAction func donePressed(_ sender: Any) {
+        
+        if self.previewText.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter a post!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
         
         let uid = FIRAuth.auth()!.currentUser!.uid
         let ref = FIRDatabase.database().reference()
         
-        let key = ref.child("times").childByAutoId().key
+        let key = ref.child("posts").childByAutoId().key
         
         let feed = ["userID" : uid,
                     "date" : [".sv": "timestamp"],
                     "author" : FIRAuth.auth()!.currentUser!.displayName!,
-                    "time" : self.previewText.text!,
-        "timeID" : key] as [String : Any]
+                    "post" : self.previewText.text!,
+                    "postID" : key] as [String : Any]
         
         let postFeed = ["\(key)" : feed]
-        ref.child("times").updateChildValues(postFeed)
+        ref.child("posts").updateChildValues(postFeed)
         
         
-        AppDelegate.instance().dismissActivityIndicator()
-        self.dismiss(animated: true, completion: nil)
         
     }
 
 }
+    
+       

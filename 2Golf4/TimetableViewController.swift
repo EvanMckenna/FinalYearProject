@@ -45,7 +45,16 @@ class TimetableViewController: UIViewController, UITableViewDelegate,UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        for parent in navigationController!.view.subviews {
+            for child in parent.subviews {
+                for view in child.subviews {
+                    if view is UIImageView && view.frame.height == 0.5 {
+                        view.alpha = 0
+                    }
+                }
+            }
+        }
+
                 self.navigationItem.setHidesBackButton(true, animated: false)
         
         ref = FIRDatabase.database().reference()
@@ -102,6 +111,19 @@ class TimetableViewController: UIViewController, UITableViewDelegate,UITableView
         
     }
     @IBAction func uploadData(_ sender: Any) {
+        
+        if self.datePickerText.text == ""
+        {
+            
+            let alertController = UIAlertController(title: "Oops!", message: "Please enter a time!", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true)
+            
+        }
+
         
         let uid = FIRAuth.auth()!.currentUser!.uid
         let ref = FIRDatabase.database().reference()
