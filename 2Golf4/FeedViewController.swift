@@ -20,15 +20,22 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var posts = [Post]()
     var following = [String]()
     
+    var refresher: UIRefreshControl!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.collectionView.alwaysBounceVertical = true
+        self.collectionView.reloadData()
         Open.target = self.revealViewController()
         Open.action = Selector("revealToggle:")
         
-
+        refresher = UIRefreshControl()
+        refresher.attributedTitle = NSAttributedString(string: "Refresh Posts")
+        refresher.addTarget(self, action: #selector(FeedViewController.refresh), for: UIControlEvents.valueChanged)
+        collectionView.addSubview(refresher)
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
         
@@ -36,6 +43,11 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
         // Do any additional setup after loading the view.
     }
 
+    
+    func refresh(){
+        self.collectionView.reloadData()
+        refresher.endRefreshing()
+    }
     
     func fetchPosts(){
         
@@ -87,7 +99,7 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
                                     
                                 }
                                 
-
+                                
                                 
                                 
                             }
