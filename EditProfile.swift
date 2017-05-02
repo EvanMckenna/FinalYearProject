@@ -31,6 +31,12 @@ class EditProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        self.view.layoutIfNeeded()
+        profile_image.layer.cornerRadius = profile_image.frame.size.width/2
+        profile_image.clipsToBounds = true
+        
+        
         let storage = FIRStorage.storage()
 
         let storageRef = storage.reference()

@@ -10,7 +10,7 @@
 	<array>
 		<dict>
 			<key>UIApplicationShortcutItemIconFile</key>
-			<string>FirstViewController</string>
+			<string>ProfileController</string>
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Home</string>
 			<key>UIApplicationShortcutItemType</key>
@@ -23,9 +23,9 @@
 		</dict>
 		<dict>
 			<key>UIApplicationShortcutItemIconFile</key>
-			<string>User-100.png</string>
+			<string>ProfileController</string>
 			<key>UIApplicationShortcutTitle</key>
-			<string>Log In</string>
+			<string>Profile</string>
 			<key>UIApplicationShortcutItemType</key>
 			<string>com.evan.-Golf4</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
